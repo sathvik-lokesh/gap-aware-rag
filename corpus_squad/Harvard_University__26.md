@@ -1,0 +1,3 @@
+# Harvard_University
+
+Older than The Game by 23 years, the Harvard-Yale Regatta was the original source of the athletic rivalry between the two schools. It is held annually in June on the Thames River in eastern Connecticut. The Harvard crew is typically considered to be one of the top teams in the country in rowing. Today, Harvard fields top teams in several other sports, such as the Harvard Crimson men's ice hockey team (with a strong rivalry against Cornell), squash, and even recently won NCAA titles in Men's and Women's Fencing. Harvard also won the Intercollegiate Sailing Association National Championships in 2003.

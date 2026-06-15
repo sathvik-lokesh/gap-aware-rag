@@ -1,0 +1,3 @@
+# Harvard_University
+
+James Bryant Conant (president, 1933–1953) reinvigorated creative scholarship to guarantee its preeminence among research institutions. He saw higher education as a vehicle of opportunity for the talented rather than an entitlement for the wealthy, so Conant devised programs to identify, recruit, and support talented youth. In 1943, he asked the faculty make a definitive statement about what general education ought to be, at the secondary as well as the college level. The resulting Report, published in 1945, was one of the most influential manifestos in the history of American education in the 20th century.

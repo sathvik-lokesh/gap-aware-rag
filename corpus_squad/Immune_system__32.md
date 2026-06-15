@@ -1,0 +1,3 @@
+# Immune_system
+
+In the mid-1950s, Frank Burnet, inspired by a suggestion made by Niels Jerne, formulated the clonal selection theory (CST) of immunity. On the basis of CST, Burnet developed a theory of how an immune response is triggered according to the self/nonself distinction: "self" constituents (constituents of the body) do not trigger destructive immune responses, while "nonself" entities (pathogens, an allograft) trigger a destructive immune response. The theory was later modified to reflect new discoveries regarding histocompatibility or the complex "two-signal" activation of T cells. The self/nonself theory of immunity and the self/nonself vocabulary have been criticized, but remain very influential.

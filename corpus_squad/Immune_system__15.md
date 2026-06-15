@@ -1,0 +1,3 @@
+# Immune_system
+
+The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is "remembered" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific "non-self" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by "memory cells". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
