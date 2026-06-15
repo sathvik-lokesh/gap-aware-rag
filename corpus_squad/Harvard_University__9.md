@@ -1,0 +1,3 @@
+# Harvard_University
+
+Women remained segregated at Radcliffe, though more and more took Harvard classes. Nonetheless, Harvard's undergraduate population remained predominantly male, with about four men attending Harvard College for every woman studying at Radcliffe. Following the merger of Harvard and Radcliffe admissions in 1977, the proportion of female undergraduates steadily increased, mirroring a trend throughout higher education in the United States. Harvard's graduate schools, which had accepted females and other groups in greater numbers even before the college, also became more diverse in the post-World War II period.

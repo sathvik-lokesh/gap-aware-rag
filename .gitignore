@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Generated/regenerable artifacts
+index_store/
+index_store_squad/
+data_squad/dev-v2.0.json
+eval/results/*.png

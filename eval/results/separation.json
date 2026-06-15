@@ -1,0 +1,3198 @@
+{
+  "auc": 0.661796875,
+  "n": 320,
+  "fpr": [
+    0.0,
+    0.0,
+    0.0,
+    0.00625,
+    0.00625,
+    0.0125,
+    0.0125,
+    0.01875,
+    0.01875,
+    0.025,
+    0.025,
+    0.05,
+    0.05,
+    0.05625,
+    0.05625,
+    0.0625,
+    0.0625,
+    0.06875,
+    0.06875,
+    0.075,
+    0.075,
+    0.08125,
+    0.08125,
+    0.0875,
+    0.0875,
+    0.09375,
+    0.09375,
+    0.1,
+    0.1,
+    0.10625,
+    0.10625,
+    0.125,
+    0.125,
+    0.13125,
+    0.13125,
+    0.14375,
+    0.14375,
+    0.15,
+    0.15,
+    0.1625,
+    0.1625,
+    0.16875,
+    0.16875,
+    0.18125,
+    0.18125,
+    0.19375,
+    0.19375,
+    0.2,
+    0.2,
+    0.25,
+    0.25,
+    0.2625,
+    0.2625,
+    0.26875,
+    0.26875,
+    0.275,
+    0.275,
+    0.28125,
+    0.28125,
+    0.2875,
+    0.2875,
+    0.29375,
+    0.29375,
+    0.3,
+    0.3,
+    0.31875,
+    0.31875,
+    0.325,
+    0.325,
+    0.33125,
+    0.33125,
+    0.3625,
+    0.3625,
+    0.375,
+    0.375,
+    0.4,
+    0.4,
+    0.41875,
+    0.41875,
+    0.425,
+    0.425,
+    0.43125,
+    0.43125,
+    0.44375,
+    0.44375,
+    0.48125,
+    0.48125,
+    0.49375,
+    0.49375,
+    0.5375,
+    0.5375,
+    0.54375,
+    0.54375,
+    0.55,
+    0.55,
+    0.5625,
+    0.5625,
+    0.56875,
+    0.56875,
+    0.58125,
+    0.58125,
+    0.5875,
+    0.5875,
+    0.6,
+    0.6,
+    0.63125,
+    0.63125,
+    0.6375,
+    0.6375,
+    0.64375,
+    0.64375,
+    0.66875,
+    0.66875,
+    0.7,
+    0.7,
+    0.725,
+    0.725,
+    0.73125,
+    0.73125,
+    0.75625,
+    0.75625,
+    0.775,
+    0.775,
+    0.7875,
+    0.7875,
+    0.79375,
+    0.79375,
+    0.80625,
+    0.80625,
+    0.8125,
+    0.8125,
+    0.81875,
+    0.81875,
+    0.825,
+    0.825,
+    0.83125,
+    0.83125,
+    0.85625,
+    0.85625,
+    0.88125,
+    0.88125,
+    0.89375,
+    0.89375,
+    0.9,
+    0.9,
+    0.91875,
+    0.91875,
+    0.9375,
+    0.9375,
+    0.9625,
+    0.9625,
+    0.99375,
+    0.99375,
+    1.0
+  ],
+  "tpr": [
+    0.0,
+    0.00625,
+    0.05625,
+    0.05625,
+    0.075,
+    0.075,
+    0.10625,
+    0.10625,
+    0.175,
+    0.175,
+    0.18125,
+    0.18125,
+    0.20625,
+    0.20625,
+    0.225,
+    0.225,
+    0.25,
+    0.25,
+    0.2875,
+    0.2875,
+    0.29375,
+    0.29375,
+    0.3,
+    0.3,
+    0.30625,
+    0.30625,
+    0.325,
+    0.325,
+    0.35,
+    0.35,
+    0.375,
+    0.375,
+    0.3875,
+    0.3875,
+    0.39375,
+    0.39375,
+    0.4125,
+    0.4125,
+    0.425,
+    0.425,
+    0.43125,
+    0.43125,
+    0.44375,
+    0.44375,
+    0.4625,
+    0.4625,
+    0.48125,
+    0.48125,
+    0.4875,
+    0.4875,
+    0.49375,
+    0.49375,
+    0.50625,
+    0.50625,
+    0.5125,
+    0.5125,
+    0.53125,
+    0.53125,
+    0.55625,
+    0.55625,
+    0.56875,
+    0.56875,
+    0.575,
+    0.575,
+    0.59375,
+    0.59375,
+    0.6,
+    0.6,
+    0.60625,
+    0.60625,
+    0.61875,
+    0.61875,
+    0.625,
+    0.625,
+    0.63125,
+    0.63125,
+    0.6375,
+    0.6375,
+    0.64375,
+    0.64375,
+    0.65,
+    0.65,
+    0.6625,
+    0.6625,
+    0.66875,
+    0.66875,
+    0.68125,
+    0.68125,
+    0.6875,
+    0.6875,
+    0.69375,
+    0.69375,
+    0.7,
+    0.7,
+    0.70625,
+    0.70625,
+    0.7125,
+    0.7125,
+    0.73125,
+    0.73125,
+    0.7375,
+    0.7375,
+    0.7625,
+    0.7625,
+    0.76875,
+    0.76875,
+    0.78125,
+    0.78125,
+    0.7875,
+    0.7875,
+    0.8,
+    0.8,
+    0.80625,
+    0.80625,
+    0.81875,
+    0.81875,
+    0.83125,
+    0.83125,
+    0.8375,
+    0.8375,
+    0.84375,
+    0.84375,
+    0.85,
+    0.85,
+    0.8625,
+    0.8625,
+    0.86875,
+    0.86875,
+    0.875,
+    0.875,
+    0.88125,
+    0.88125,
+    0.8875,
+    0.8875,
+    0.9,
+    0.9,
+    0.90625,
+    0.90625,
+    0.9125,
+    0.9125,
+    0.91875,
+    0.91875,
+    0.93125,
+    0.93125,
+    0.94375,
+    0.94375,
+    0.95,
+    0.95,
+    0.95625,
+    0.95625,
+    0.9875,
+    0.9875,
+    1.0,
+    1.0
+  ],
+  "rows": [
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7405413389205933,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.08883547782897949,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7910099625587463,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.1419992446899414,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6893527507781982,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.07476222515106201,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6135268807411194,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.03488212823867798,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8011462092399597,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.13637298345565796,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6445490717887878,
+      "top1_pct": 5.0,
+      "density": 0,
+      "score_gap": 0.009084641933441162,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7763597965240479,
+      "top1_pct": 66.66666666666666,
+      "density": 1,
+      "score_gap": 0.12250345945358276,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8102548122406006,
+      "top1_pct": 81.66666666666667,
+      "density": 2,
+      "score_gap": 0.11164158582687378,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7584710717201233,
+      "top1_pct": 60.0,
+      "density": 1,
+      "score_gap": 0.07324773073196411,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7620019912719727,
+      "top1_pct": 61.66666666666667,
+      "density": 3,
+      "score_gap": 0.027854859828948975,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8240069150924683,
+      "top1_pct": 86.66666666666667,
+      "density": 6,
+      "score_gap": 0.06791925430297852,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7876876592636108,
+      "top1_pct": 78.33333333333333,
+      "density": 1,
+      "score_gap": 0.09117364883422852,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7446815967559814,
+      "top1_pct": 53.333333333333336,
+      "density": 3,
+      "score_gap": 0.012506723403930664,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.670358419418335,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.035451650619506836,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6843814253807068,
+      "top1_pct": 21.666666666666668,
+      "density": 0,
+      "score_gap": 0.020122826099395752,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8054497241973877,
+      "top1_pct": 81.66666666666667,
+      "density": 11,
+      "score_gap": 0.02376943826675415,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6998114585876465,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.03461188077926636,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7684205770492554,
+      "top1_pct": 61.66666666666667,
+      "density": 2,
+      "score_gap": 0.048514366149902344,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.763864278793335,
+      "top1_pct": 61.66666666666667,
+      "density": 2,
+      "score_gap": 0.06992596387863159,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6492327451705933,
+      "top1_pct": 6.666666666666667,
+      "density": 0,
+      "score_gap": 0.01761782169342041,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6448078155517578,
+      "top1_pct": 5.0,
+      "density": 0,
+      "score_gap": 0.026214122772216797,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6928192377090454,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.030002355575561523,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7500615119934082,
+      "top1_pct": 55.00000000000001,
+      "density": 1,
+      "score_gap": 0.088314950466156,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7285471558570862,
+      "top1_pct": 50.0,
+      "density": 0,
+      "score_gap": 0.09200400114059448,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7123633027076721,
+      "top1_pct": 33.33333333333333,
+      "density": 0,
+      "score_gap": 0.039413273334503174,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7882256507873535,
+      "top1_pct": 78.33333333333333,
+      "density": 2,
+      "score_gap": 0.08235371112823486,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7532309889793396,
+      "top1_pct": 55.00000000000001,
+      "density": 1,
+      "score_gap": 0.15057140588760376,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6914456486701965,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.011778831481933594,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7654111385345459,
+      "top1_pct": 61.66666666666667,
+      "density": 2,
+      "score_gap": 0.042315125465393066,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7538107633590698,
+      "top1_pct": 56.666666666666664,
+      "density": 4,
+      "score_gap": 0.014975547790527344,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8447211384773254,
+      "top1_pct": 95.0,
+      "density": 1,
+      "score_gap": 0.16593462228775024,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.776479959487915,
+      "top1_pct": 66.66666666666666,
+      "density": 9,
+      "score_gap": 0.02944326400756836,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7483264207839966,
+      "top1_pct": 53.333333333333336,
+      "density": 4,
+      "score_gap": 0.02064889669418335,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.744377613067627,
+      "top1_pct": 53.333333333333336,
+      "density": 1,
+      "score_gap": 0.08219337463378906,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6105217337608337,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.03827780485153198,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.747910737991333,
+      "top1_pct": 53.333333333333336,
+      "density": 2,
+      "score_gap": 0.039690494537353516,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8293914794921875,
+      "top1_pct": 88.33333333333333,
+      "density": 8,
+      "score_gap": 0.056183695793151855,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7930070161819458,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.07809722423553467,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7177761793136597,
+      "top1_pct": 36.666666666666664,
+      "density": 0,
+      "score_gap": 0.11117255687713623,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.798346221446991,
+      "top1_pct": 80.0,
+      "density": 2,
+      "score_gap": 0.0767553448677063,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6571005582809448,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.012153863906860352,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8240089416503906,
+      "top1_pct": 86.66666666666667,
+      "density": 11,
+      "score_gap": 0.05994069576263428,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7944952249526978,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.19187521934509277,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6849085092544556,
+      "top1_pct": 21.666666666666668,
+      "density": 0,
+      "score_gap": 0.05312234163284302,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6953437924385071,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.0656234622001648,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.720850944519043,
+      "top1_pct": 41.66666666666667,
+      "density": 0,
+      "score_gap": 0.09009963274002075,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7012696266174316,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.06216615438461304,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7115647792816162,
+      "top1_pct": 33.33333333333333,
+      "density": 0,
+      "score_gap": 0.09838390350341797,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7992784976959229,
+      "top1_pct": 80.0,
+      "density": 6,
+      "score_gap": 0.05708479881286621,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8412380814552307,
+      "top1_pct": 93.33333333333333,
+      "density": 4,
+      "score_gap": 0.1035277247428894,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7403239011764526,
+      "top1_pct": 51.66666666666667,
+      "density": 2,
+      "score_gap": 0.030132770538330078,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.684940755367279,
+      "top1_pct": 21.666666666666668,
+      "density": 0,
+      "score_gap": 0.06012839078903198,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6576049327850342,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.017124414443969727,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6547003984451294,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.06382477283477783,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8089467883110046,
+      "top1_pct": 81.66666666666667,
+      "density": 3,
+      "score_gap": 0.07585591077804565,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7622002363204956,
+      "top1_pct": 61.66666666666667,
+      "density": 6,
+      "score_gap": 0.02288031578063965,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7556004524230957,
+      "top1_pct": 56.666666666666664,
+      "density": 1,
+      "score_gap": 0.08700525760650635,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7221684455871582,
+      "top1_pct": 41.66666666666667,
+      "density": 0,
+      "score_gap": 0.03072810173034668,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.764399528503418,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.07116758823394775,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8927966356277466,
+      "top1_pct": 100.0,
+      "density": 2,
+      "score_gap": 0.19232118129730225,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7654299736022949,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.08886510133743286,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6889299154281616,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.02473539113998413,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.777708113193512,
+      "top1_pct": 66.66666666666666,
+      "density": 2,
+      "score_gap": 0.059907376766204834,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8195804357528687,
+      "top1_pct": 86.66666666666667,
+      "density": 8,
+      "score_gap": 0.058508872985839844,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7053780555725098,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.06871581077575684,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7665054798126221,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.05350470542907715,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7712592482566833,
+      "top1_pct": 65.0,
+      "density": 1,
+      "score_gap": 0.0996580719947815,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8133799433708191,
+      "top1_pct": 85.0,
+      "density": 11,
+      "score_gap": 0.029927313327789307,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6443053483963013,
+      "top1_pct": 5.0,
+      "density": 0,
+      "score_gap": 0.022425532341003418,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7829859256744385,
+      "top1_pct": 75.0,
+      "density": 2,
+      "score_gap": 0.06101733446121216,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7763303518295288,
+      "top1_pct": 66.66666666666666,
+      "density": 1,
+      "score_gap": 0.15349388122558594,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.623205840587616,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.009522676467895508,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7089030742645264,
+      "top1_pct": 31.666666666666664,
+      "density": 0,
+      "score_gap": 0.018909811973571777,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6501244306564331,
+      "top1_pct": 6.666666666666667,
+      "density": 0,
+      "score_gap": 0.028059720993041992,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6918222308158875,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.03861790895462036,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7516970634460449,
+      "top1_pct": 55.00000000000001,
+      "density": 2,
+      "score_gap": 0.03732752799987793,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6569646000862122,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.008400321006774902,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8653966188430786,
+      "top1_pct": 100.0,
+      "density": 4,
+      "score_gap": 0.10423767566680908,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6703130602836609,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.007157266139984131,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7223386764526367,
+      "top1_pct": 41.66666666666667,
+      "density": 0,
+      "score_gap": 0.032604873180389404,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7176600694656372,
+      "top1_pct": 35.0,
+      "density": 0,
+      "score_gap": 0.04114717245101929,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7661638259887695,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.08466428518295288,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8709221482276917,
+      "top1_pct": 100.0,
+      "density": 26,
+      "score_gap": 0.05501532554626465,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7611895799636841,
+      "top1_pct": 61.66666666666667,
+      "density": 2,
+      "score_gap": 0.08825922012329102,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7972391843795776,
+      "top1_pct": 80.0,
+      "density": 7,
+      "score_gap": 0.04786902666091919,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7561832666397095,
+      "top1_pct": 56.666666666666664,
+      "density": 3,
+      "score_gap": 0.041384100914001465,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7877419590950012,
+      "top1_pct": 78.33333333333333,
+      "density": 2,
+      "score_gap": 0.0714227557182312,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7113937139511108,
+      "top1_pct": 33.33333333333333,
+      "density": 0,
+      "score_gap": 0.02809619903564453,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7613236904144287,
+      "top1_pct": 61.66666666666667,
+      "density": 5,
+      "score_gap": 0.02416205406188965,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6838630437850952,
+      "top1_pct": 21.666666666666668,
+      "density": 0,
+      "score_gap": 0.036916255950927734,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.5829814672470093,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.03448063135147095,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7719995975494385,
+      "top1_pct": 65.0,
+      "density": 1,
+      "score_gap": 0.08126640319824219,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6892775297164917,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.026003360748291016,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7561832070350647,
+      "top1_pct": 56.666666666666664,
+      "density": 7,
+      "score_gap": 0.010841906070709229,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7885345220565796,
+      "top1_pct": 78.33333333333333,
+      "density": 1,
+      "score_gap": 0.09002530574798584,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8089512586593628,
+      "top1_pct": 81.66666666666667,
+      "density": 11,
+      "score_gap": 0.031343698501586914,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7778832912445068,
+      "top1_pct": 66.66666666666666,
+      "density": 7,
+      "score_gap": 0.03371405601501465,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8461309671401978,
+      "top1_pct": 95.0,
+      "density": 15,
+      "score_gap": 0.05463433265686035,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7026578187942505,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.040183067321777344,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6960625648498535,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.030218958854675293,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7876397371292114,
+      "top1_pct": 78.33333333333333,
+      "density": 12,
+      "score_gap": 0.03584158420562744,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6937354803085327,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.03119271993637085,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7441501617431641,
+      "top1_pct": 53.333333333333336,
+      "density": 1,
+      "score_gap": 0.033103346824645996,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7471481561660767,
+      "top1_pct": 53.333333333333336,
+      "density": 2,
+      "score_gap": 0.03600335121154785,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7729117274284363,
+      "top1_pct": 65.0,
+      "density": 3,
+      "score_gap": 0.03497201204299927,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7280231714248657,
+      "top1_pct": 50.0,
+      "density": 0,
+      "score_gap": 0.06228137016296387,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7906243801116943,
+      "top1_pct": 80.0,
+      "density": 8,
+      "score_gap": 0.017254292964935303,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6686656475067139,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.020573854446411133,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7703853249549866,
+      "top1_pct": 65.0,
+      "density": 4,
+      "score_gap": 0.03544211387634277,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8108172416687012,
+      "top1_pct": 81.66666666666667,
+      "density": 11,
+      "score_gap": 0.01772916316986084,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6548431515693665,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.04159265756607056,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6894016265869141,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.017360448837280273,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7217395901679993,
+      "top1_pct": 41.66666666666667,
+      "density": 0,
+      "score_gap": 0.05284595489501953,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7535115480422974,
+      "top1_pct": 56.666666666666664,
+      "density": 2,
+      "score_gap": 0.03537470102310181,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8006104826927185,
+      "top1_pct": 80.0,
+      "density": 10,
+      "score_gap": 0.030528366565704346,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7748317718505859,
+      "top1_pct": 66.66666666666666,
+      "density": 3,
+      "score_gap": 0.05597501993179321,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.784100353717804,
+      "top1_pct": 75.0,
+      "density": 2,
+      "score_gap": 0.05852842330932617,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6475077271461487,
+      "top1_pct": 6.666666666666667,
+      "density": 0,
+      "score_gap": 0.007890284061431885,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8065190315246582,
+      "top1_pct": 81.66666666666667,
+      "density": 12,
+      "score_gap": 0.03771483898162842,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8166924118995667,
+      "top1_pct": 86.66666666666667,
+      "density": 2,
+      "score_gap": 0.11793678998947144,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6939292550086975,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.1019706130027771,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8717495203018188,
+      "top1_pct": 100.0,
+      "density": 1,
+      "score_gap": 0.1666337251663208,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7678732872009277,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.08717697858810425,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.643298864364624,
+      "top1_pct": 3.3333333333333335,
+      "density": 0,
+      "score_gap": 0.025874614715576172,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.800257682800293,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.12920451164245605,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6459044814109802,
+      "top1_pct": 5.0,
+      "density": 0,
+      "score_gap": 0.005384504795074463,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7412421703338623,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.04164224863052368,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6991844773292542,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.04149085283279419,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8524664640426636,
+      "top1_pct": 98.33333333333333,
+      "density": 2,
+      "score_gap": 0.14035660028457642,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6453161835670471,
+      "top1_pct": 5.0,
+      "density": 0,
+      "score_gap": 0.06641614437103271,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6955561637878418,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.02275228500366211,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7813780903816223,
+      "top1_pct": 70.0,
+      "density": 1,
+      "score_gap": 0.11409449577331543,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7871719598770142,
+      "top1_pct": 78.33333333333333,
+      "density": 3,
+      "score_gap": 0.05385524034500122,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7530063390731812,
+      "top1_pct": 55.00000000000001,
+      "density": 1,
+      "score_gap": 0.0550919771194458,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7938490509986877,
+      "top1_pct": 80.0,
+      "density": 13,
+      "score_gap": 0.023848354816436768,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8910888433456421,
+      "top1_pct": 100.0,
+      "density": 16,
+      "score_gap": 0.06215488910675049,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7176743745803833,
+      "top1_pct": 35.0,
+      "density": 0,
+      "score_gap": 0.023137569427490234,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6989376544952393,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.038619399070739746,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7957254648208618,
+      "top1_pct": 80.0,
+      "density": 8,
+      "score_gap": 0.029908359050750732,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7730827331542969,
+      "top1_pct": 65.0,
+      "density": 2,
+      "score_gap": 0.06168162822723389,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7221139669418335,
+      "top1_pct": 41.66666666666667,
+      "density": 0,
+      "score_gap": 0.03528362512588501,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8299199342727661,
+      "top1_pct": 90.0,
+      "density": 6,
+      "score_gap": 0.08256077766418457,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7740483283996582,
+      "top1_pct": 66.66666666666666,
+      "density": 1,
+      "score_gap": 0.1366722583770752,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7885832190513611,
+      "top1_pct": 78.33333333333333,
+      "density": 1,
+      "score_gap": 0.07926672697067261,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6577196717262268,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.022386670112609863,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7472571134567261,
+      "top1_pct": 53.333333333333336,
+      "density": 2,
+      "score_gap": 0.02513909339904785,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6009914875030518,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.010829627513885498,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7520866394042969,
+      "top1_pct": 55.00000000000001,
+      "density": 4,
+      "score_gap": 0.013484954833984375,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8288232088088989,
+      "top1_pct": 86.66666666666667,
+      "density": 3,
+      "score_gap": 0.08077502250671387,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7505191564559937,
+      "top1_pct": 55.00000000000001,
+      "density": 4,
+      "score_gap": 0.02199411392211914,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.756798267364502,
+      "top1_pct": 56.666666666666664,
+      "density": 2,
+      "score_gap": 0.040737152099609375,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7533050775527954,
+      "top1_pct": 55.00000000000001,
+      "density": 1,
+      "score_gap": 0.07321691513061523,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7338236570358276,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.03772544860839844,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7816410064697266,
+      "top1_pct": 70.0,
+      "density": 2,
+      "score_gap": 0.07901424169540405,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7557047605514526,
+      "top1_pct": 56.666666666666664,
+      "density": 1,
+      "score_gap": 0.06880450248718262,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8877003192901611,
+      "top1_pct": 100.0,
+      "density": 2,
+      "score_gap": 0.18207001686096191,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7790688872337341,
+      "top1_pct": 68.33333333333333,
+      "density": 1,
+      "score_gap": 0.1186937689781189,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8030456304550171,
+      "top1_pct": 80.0,
+      "density": 6,
+      "score_gap": 0.0419238805770874,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.694726288318634,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.026161611080169678,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7325162887573242,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.0672101378440857,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7567394971847534,
+      "top1_pct": 56.666666666666664,
+      "density": 1,
+      "score_gap": 0.10571920871734619,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.765308141708374,
+      "top1_pct": 61.66666666666667,
+      "density": 7,
+      "score_gap": 0.01701343059539795,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7746193408966064,
+      "top1_pct": 66.66666666666666,
+      "density": 4,
+      "score_gap": 0.03610891103744507,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6801883578300476,
+      "top1_pct": 18.333333333333332,
+      "density": 0,
+      "score_gap": 0.08109897375106812,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7790688872337341,
+      "top1_pct": 68.33333333333333,
+      "density": 1,
+      "score_gap": 0.1186937689781189,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.706322968006134,
+      "top1_pct": 28.333333333333332,
+      "density": 0,
+      "score_gap": 0.010315477848052979,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6772316694259644,
+      "top1_pct": 16.666666666666664,
+      "density": 0,
+      "score_gap": 0.007815003395080566,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7019451260566711,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.03841054439544678,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7743264436721802,
+      "top1_pct": 66.66666666666666,
+      "density": 3,
+      "score_gap": 0.04451078176498413,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.629672646522522,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.03793984651565552,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6957266926765442,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.03762495517730713,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7467790842056274,
+      "top1_pct": 53.333333333333336,
+      "density": 3,
+      "score_gap": 0.021818041801452637,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7904976010322571,
+      "top1_pct": 80.0,
+      "density": 2,
+      "score_gap": 0.11084538698196411,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6704020500183105,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.021175026893615723,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7379488945007324,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.07941323518753052,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6949944496154785,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.02873837947845459,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7976411581039429,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.1623164415359497,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8804043531417847,
+      "top1_pct": 100.0,
+      "density": 4,
+      "score_gap": 0.134904682636261,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6672592163085938,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.05885803699493408,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6569947600364685,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.059564411640167236,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7577117681503296,
+      "top1_pct": 60.0,
+      "density": 2,
+      "score_gap": 0.05521970987319946,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6943293809890747,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.021472156047821045,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7792469263076782,
+      "top1_pct": 68.33333333333333,
+      "density": 3,
+      "score_gap": 0.05409538745880127,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7457398176193237,
+      "top1_pct": 53.333333333333336,
+      "density": 5,
+      "score_gap": 0.0076705217361450195,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7816965579986572,
+      "top1_pct": 70.0,
+      "density": 1,
+      "score_gap": 0.06989830732345581,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6695977449417114,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.021391630172729492,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8157036304473877,
+      "top1_pct": 85.0,
+      "density": 2,
+      "score_gap": 0.09567034244537354,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7748236060142517,
+      "top1_pct": 66.66666666666666,
+      "density": 1,
+      "score_gap": 0.13066095113754272,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7747524976730347,
+      "top1_pct": 66.66666666666666,
+      "density": 1,
+      "score_gap": 0.0905495285987854,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.614159107208252,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.027781248092651367,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7640976309776306,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.08478158712387085,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6749154329299927,
+      "top1_pct": 16.666666666666664,
+      "density": 0,
+      "score_gap": 0.02306544780731201,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7437019944190979,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.07493406534194946,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7302239537239075,
+      "top1_pct": 50.0,
+      "density": 1,
+      "score_gap": 0.06630462408065796,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8370083570480347,
+      "top1_pct": 93.33333333333333,
+      "density": 16,
+      "score_gap": 0.05219674110412598,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8123832941055298,
+      "top1_pct": 85.0,
+      "density": 12,
+      "score_gap": 0.032107651233673096,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7180578112602234,
+      "top1_pct": 38.333333333333336,
+      "density": 0,
+      "score_gap": 0.044286370277404785,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.742138683795929,
+      "top1_pct": 51.66666666666667,
+      "density": 2,
+      "score_gap": 0.021761834621429443,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7250849604606628,
+      "top1_pct": 45.0,
+      "density": 0,
+      "score_gap": 0.09069806337356567,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7190477848052979,
+      "top1_pct": 38.333333333333336,
+      "density": 0,
+      "score_gap": 0.07352656126022339,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7329390048980713,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.04018259048461914,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7966599464416504,
+      "top1_pct": 80.0,
+      "density": 4,
+      "score_gap": 0.055402517318725586,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6704113483428955,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.01721590757369995,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7403308153152466,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.09096336364746094,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7112234830856323,
+      "top1_pct": 33.33333333333333,
+      "density": 0,
+      "score_gap": 0.053166866302490234,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6797878742218018,
+      "top1_pct": 18.333333333333332,
+      "density": 0,
+      "score_gap": 0.009221076965332031,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7985132932662964,
+      "top1_pct": 80.0,
+      "density": 13,
+      "score_gap": 0.04204893112182617,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6783100366592407,
+      "top1_pct": 18.333333333333332,
+      "density": 0,
+      "score_gap": 0.011636614799499512,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8117716312408447,
+      "top1_pct": 83.33333333333334,
+      "density": 7,
+      "score_gap": 0.04043447971343994,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7707109451293945,
+      "top1_pct": 65.0,
+      "density": 1,
+      "score_gap": 0.13060259819030762,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8513221740722656,
+      "top1_pct": 98.33333333333333,
+      "density": 1,
+      "score_gap": 0.15484464168548584,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8058483600616455,
+      "top1_pct": 81.66666666666667,
+      "density": 2,
+      "score_gap": 0.08666360378265381,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7175164222717285,
+      "top1_pct": 35.0,
+      "density": 0,
+      "score_gap": 0.028673887252807617,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7346575260162354,
+      "top1_pct": 51.66666666666667,
+      "density": 3,
+      "score_gap": 0.005087375640869141,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7947269678115845,
+      "top1_pct": 80.0,
+      "density": 4,
+      "score_gap": 0.0448494553565979,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8062465190887451,
+      "top1_pct": 81.66666666666667,
+      "density": 1,
+      "score_gap": 0.1309574842453003,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.721881628036499,
+      "top1_pct": 41.66666666666667,
+      "density": 0,
+      "score_gap": 0.0203094482421875,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6963081359863281,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.03150522708892822,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7388070821762085,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.04244047403335571,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7597000598907471,
+      "top1_pct": 61.66666666666667,
+      "density": 2,
+      "score_gap": 0.03797149658203125,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7884500026702881,
+      "top1_pct": 78.33333333333333,
+      "density": 2,
+      "score_gap": 0.11648190021514893,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6737695932388306,
+      "top1_pct": 16.666666666666664,
+      "density": 0,
+      "score_gap": 0.047169387340545654,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6722092628479004,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.02985912561416626,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6466525793075562,
+      "top1_pct": 5.0,
+      "density": 0,
+      "score_gap": 0.031280696392059326,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6133395433425903,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.004662871360778809,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6304875016212463,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.012455642223358154,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8079015016555786,
+      "top1_pct": 81.66666666666667,
+      "density": 6,
+      "score_gap": 0.05992436408996582,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7492207884788513,
+      "top1_pct": 55.00000000000001,
+      "density": 1,
+      "score_gap": 0.10012584924697876,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6789116263389587,
+      "top1_pct": 18.333333333333332,
+      "density": 0,
+      "score_gap": 0.01129150390625,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8702118992805481,
+      "top1_pct": 100.0,
+      "density": 2,
+      "score_gap": 0.16667360067367554,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.696513831615448,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.0569726824760437,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7943577766418457,
+      "top1_pct": 80.0,
+      "density": 2,
+      "score_gap": 0.07450538873672485,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6436469554901123,
+      "top1_pct": 3.3333333333333335,
+      "density": 0,
+      "score_gap": 0.009458780288696289,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7148981094360352,
+      "top1_pct": 35.0,
+      "density": 0,
+      "score_gap": 0.028534531593322754,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7365885376930237,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.10525304079055786,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6938496828079224,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.029385864734649658,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6871280670166016,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.009759902954101562,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6490543484687805,
+      "top1_pct": 6.666666666666667,
+      "density": 0,
+      "score_gap": 0.03325676918029785,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7446027994155884,
+      "top1_pct": 53.333333333333336,
+      "density": 2,
+      "score_gap": 0.04363393783569336,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8265442848205566,
+      "top1_pct": 86.66666666666667,
+      "density": 1,
+      "score_gap": 0.13146859407424927,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8213410377502441,
+      "top1_pct": 86.66666666666667,
+      "density": 1,
+      "score_gap": 0.13522422313690186,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8217120170593262,
+      "top1_pct": 86.66666666666667,
+      "density": 1,
+      "score_gap": 0.17447549104690552,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7407633066177368,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.048500239849090576,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7167876958847046,
+      "top1_pct": 35.0,
+      "density": 0,
+      "score_gap": 0.050802409648895264,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7660359740257263,
+      "top1_pct": 61.66666666666667,
+      "density": 8,
+      "score_gap": 0.017400801181793213,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.616362452507019,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.03495371341705322,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.658515453338623,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.04351508617401123,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6504523158073425,
+      "top1_pct": 6.666666666666667,
+      "density": 0,
+      "score_gap": 0.03909122943878174,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.9142144918441772,
+      "top1_pct": 100.0,
+      "density": 3,
+      "score_gap": 0.17725008726119995,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7639087438583374,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.09815490245819092,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7474362254142761,
+      "top1_pct": 53.333333333333336,
+      "density": 1,
+      "score_gap": 0.07308030128479004,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7377845048904419,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.022277414798736572,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8650453090667725,
+      "top1_pct": 100.0,
+      "density": 2,
+      "score_gap": 0.1922476887702942,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6816549301147461,
+      "top1_pct": 18.333333333333332,
+      "density": 0,
+      "score_gap": 0.04697871208190918,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7053359746932983,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.010370731353759766,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7350513935089111,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.027781128883361816,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7697675228118896,
+      "top1_pct": 63.33333333333333,
+      "density": 1,
+      "score_gap": 0.1305692195892334,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7245800495147705,
+      "top1_pct": 45.0,
+      "density": 0,
+      "score_gap": 0.010811805725097656,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7392637729644775,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.031033039093017578,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8939698934555054,
+      "top1_pct": 100.0,
+      "density": 9,
+      "score_gap": 0.0964311957359314,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7295395731925964,
+      "top1_pct": 50.0,
+      "density": 1,
+      "score_gap": 0.029330551624298096,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6980887651443481,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.04768729209899902,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6550986170768738,
+      "top1_pct": 8.333333333333332,
+      "density": 0,
+      "score_gap": 0.004208803176879883,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7087417244911194,
+      "top1_pct": 30.0,
+      "density": 0,
+      "score_gap": 0.01767939329147339,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7068396806716919,
+      "top1_pct": 28.333333333333332,
+      "density": 0,
+      "score_gap": 0.12300705909729004,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7624359130859375,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.07177132368087769,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6329347491264343,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.010189235210418701,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7674816250801086,
+      "top1_pct": 61.66666666666667,
+      "density": 14,
+      "score_gap": 0.01829683780670166,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7399030923843384,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.09811896085739136,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6993445158004761,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.032443881034851074,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7386723756790161,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.02998507022857666,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.740737795829773,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.08134585618972778,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7446056008338928,
+      "top1_pct": 53.333333333333336,
+      "density": 1,
+      "score_gap": 0.13149237632751465,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6703218817710876,
+      "top1_pct": 15.0,
+      "density": 0,
+      "score_gap": 0.0011667609214782715,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.8137445449829102,
+      "top1_pct": 85.0,
+      "density": 2,
+      "score_gap": 0.10007935762405396,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8278254270553589,
+      "top1_pct": 86.66666666666667,
+      "density": 5,
+      "score_gap": 0.05575805902481079,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7010347247123718,
+      "top1_pct": 26.666666666666668,
+      "density": 0,
+      "score_gap": 0.023265063762664795,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7804443836212158,
+      "top1_pct": 68.33333333333333,
+      "density": 2,
+      "score_gap": 0.0953519344329834,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8529149293899536,
+      "top1_pct": 98.33333333333333,
+      "density": 20,
+      "score_gap": 0.06477349996566772,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7399146556854248,
+      "top1_pct": 51.66666666666667,
+      "density": 2,
+      "score_gap": 0.01933532953262329,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7450348138809204,
+      "top1_pct": 53.333333333333336,
+      "density": 1,
+      "score_gap": 0.03486281633377075,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.693084716796875,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.029601752758026123,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7849375009536743,
+      "top1_pct": 75.0,
+      "density": 3,
+      "score_gap": 0.07259339094161987,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7966021299362183,
+      "top1_pct": 80.0,
+      "density": 3,
+      "score_gap": 0.07216119766235352,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7536030411720276,
+      "top1_pct": 56.666666666666664,
+      "density": 5,
+      "score_gap": 0.01511460542678833,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7363460063934326,
+      "top1_pct": 51.66666666666667,
+      "density": 1,
+      "score_gap": 0.11302316188812256,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7612373232841492,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.08213376998901367,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7887262105941772,
+      "top1_pct": 78.33333333333333,
+      "density": 4,
+      "score_gap": 0.05090630054473877,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7851366996765137,
+      "top1_pct": 76.66666666666667,
+      "density": 3,
+      "score_gap": 0.0554579496383667,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7213006019592285,
+      "top1_pct": 41.66666666666667,
+      "density": 0,
+      "score_gap": 0.11394435167312622,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7972344756126404,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.1530175805091858,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.839393138885498,
+      "top1_pct": 93.33333333333333,
+      "density": 2,
+      "score_gap": 0.10744661092758179,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.788516104221344,
+      "top1_pct": 78.33333333333333,
+      "density": 3,
+      "score_gap": 0.05193239450454712,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7494392395019531,
+      "top1_pct": 55.00000000000001,
+      "density": 1,
+      "score_gap": 0.15544068813323975,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7505655288696289,
+      "top1_pct": 55.00000000000001,
+      "density": 1,
+      "score_gap": 0.06770837306976318,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6957004070281982,
+      "top1_pct": 25.0,
+      "density": 0,
+      "score_gap": 0.0421910285949707,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7753965854644775,
+      "top1_pct": 66.66666666666666,
+      "density": 1,
+      "score_gap": 0.09095090627670288,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.585082471370697,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.01939600706100464,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6921094059944153,
+      "top1_pct": 23.333333333333332,
+      "density": 0,
+      "score_gap": 0.06499648094177246,
+      "verdict": "GAP"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.770850658416748,
+      "top1_pct": 65.0,
+      "density": 1,
+      "score_gap": 0.07072615623474121,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7905982732772827,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.12058001756668091,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.6826245784759521,
+      "top1_pct": 21.666666666666668,
+      "density": 0,
+      "score_gap": 0.0713111162185669,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7851237058639526,
+      "top1_pct": 76.66666666666667,
+      "density": 5,
+      "score_gap": 0.028089404106140137,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7289633750915527,
+      "top1_pct": 50.0,
+      "density": 0,
+      "score_gap": 0.0716782808303833,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.6386642456054688,
+      "top1_pct": 0.0,
+      "density": 0,
+      "score_gap": 0.03999185562133789,
+      "verdict": "GAP"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8359158039093018,
+      "top1_pct": 93.33333333333333,
+      "density": 1,
+      "score_gap": 0.13475054502487183,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7613856196403503,
+      "top1_pct": 61.66666666666667,
+      "density": 4,
+      "score_gap": 0.026432394981384277,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7138046622276306,
+      "top1_pct": 33.33333333333333,
+      "density": 0,
+      "score_gap": 0.03528642654418945,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7789778113365173,
+      "top1_pct": 68.33333333333333,
+      "density": 8,
+      "score_gap": 0.013320386409759521,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7171318531036377,
+      "top1_pct": 35.0,
+      "density": 0,
+      "score_gap": 0.029003381729125977,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.790556788444519,
+      "top1_pct": 80.0,
+      "density": 1,
+      "score_gap": 0.1277105212211609,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8396469950675964,
+      "top1_pct": 93.33333333333333,
+      "density": 1,
+      "score_gap": 0.15984457731246948,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7627442479133606,
+      "top1_pct": 61.66666666666667,
+      "density": 2,
+      "score_gap": 0.04177027940750122,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7469048500061035,
+      "top1_pct": 53.333333333333336,
+      "density": 2,
+      "score_gap": 0.04057878255844116,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7588295936584473,
+      "top1_pct": 60.0,
+      "density": 2,
+      "score_gap": 0.09490931034088135,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7661222815513611,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.07116180658340454,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.8013747930526733,
+      "top1_pct": 80.0,
+      "density": 3,
+      "score_gap": 0.05866873264312744,
+      "verdict": "ANSWERABLE"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.760468602180481,
+      "top1_pct": 61.66666666666667,
+      "density": 1,
+      "score_gap": 0.03958946466445923,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "answerable",
+      "answerable": 1,
+      "top1": 0.7723982334136963,
+      "top1_pct": 65.0,
+      "density": 2,
+      "score_gap": 0.056221842765808105,
+      "verdict": "PARTIAL"
+    },
+    {
+      "label": "unanswerable",
+      "answerable": 0,
+      "top1": 0.7495291233062744,
+      "top1_pct": 55.00000000000001,
+      "density": 4,
+      "score_gap": 0.016990602016448975,
+      "verdict": "PARTIAL"
+    }
+  ]
+}

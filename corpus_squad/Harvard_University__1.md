@@ -1,0 +1,3 @@
+# Harvard_University
+
+Harvard is a large, highly residential research university. The nominal cost of attendance is high, but the University's large endowment allows it to offer generous financial aid packages. It operates several arts, cultural, and scientific museums, alongside the Harvard Library, which is the world's largest academic and private library system, comprising 79 individual libraries with over 18 million volumes. Harvard's alumni include eight U.S. presidents, several foreign heads of state, 62 living billionaires, 335 Rhodes Scholars, and 242 Marshall Scholars. To date, some 150 Nobel laureates, 18 Fields Medalists and 13 Turing Award winners have been affiliated as students, faculty, or staff.

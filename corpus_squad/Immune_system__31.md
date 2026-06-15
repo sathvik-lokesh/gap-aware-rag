@@ -1,0 +1,3 @@
+# Immune_system
+
+The success of any pathogen depends on its ability to elude host immune responses. Therefore, pathogens evolved several methods that allow them to successfully infect a host, while evading detection or destruction by the immune system. Bacteria often overcome physical barriers by secreting enzymes that digest the barrier, for example, by using a type II secretion system. Alternatively, using a type III secretion system, they may insert a hollow tube into the host cell, providing a direct route for proteins to move from the pathogen to the host. These proteins are often used to shut down host defenses.

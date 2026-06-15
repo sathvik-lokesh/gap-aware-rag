@@ -1,0 +1,2643 @@
+[
+  {
+    "question": "What did the Court of Justice justify about a low content of vegetable fat?",
+    "context_id": "European_Union_law__31",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Between 1978 an d2008 four year full time undergraduate students were required to complete how many classes outside of their concentration?",
+    "context_id": "Harvard_University__17",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "core curriculum of seven classes",
+      "seven"
+    ]
+  },
+  {
+    "question": "What river is located in the vicinity of the school?",
+    "context_id": "Harvard_University__2",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Charles",
+      "Charles River"
+    ]
+  },
+  {
+    "question": "What is the name of the bridge over the Longwood Medical and Academic area?",
+    "context_id": "Harvard_University__11",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the name of Harvard's primary recreational sports facility?",
+    "context_id": "Harvard_University__25",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Malkin Athletic Center"
+    ]
+  },
+  {
+    "question": "What office was held by George W. Bush?",
+    "context_id": "Harvard_University__27",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Commensal flora can change what specific conditions of their environment in the gastrointestinal tract?",
+    "context_id": "Immune_system__8",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "balance of microbial populations",
+      "pH or available iron"
+    ]
+  },
+  {
+    "question": "What is a kind of defense response that makes the entire plant resistant to a particular agent?",
+    "context_id": "Immune_system__27",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Systemic acquired resistance",
+      "Systemic acquired resistance (SAR)"
+    ]
+  },
+  {
+    "question": "What happens if the Directive's deadline is met?",
+    "context_id": "European_Union_law__16",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which treaty provides that the European Union law be applied to metropolitan territories of member states?",
+    "context_id": "European_Union_law__3",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Treaty on European Union (TEU)"
+    ]
+  },
+  {
+    "question": "Where are the specialized cells that eliminate cells that recognize self-antigens located?",
+    "context_id": "Immune_system__28",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "thymus and bone marrow"
+    ]
+  },
+  {
+    "question": "Who does the Carnegie Foundation depend on for some aspects of undergraduate education?",
+    "context_id": "Harvard_University__17",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What artificial method of spreading immunity causes disease?",
+    "context_id": "Immune_system__30",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What applicants does the Carnegie Foundation want to have more support for?",
+    "context_id": "Harvard_University__16",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What has the Court required to be more accessible?",
+    "context_id": "European_Union_law__35",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "higher education"
+    ]
+  },
+  {
+    "question": "What are killer T cells dis-activated by?",
+    "context_id": "Immune_system__18",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Phagocytosis first evolved as means of doing what?",
+    "context_id": "Immune_system__10",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "acquiring nutrients"
+    ]
+  },
+  {
+    "question": "What happens if a Directive doe snot give expression to a \"general principle\"of EU law?",
+    "context_id": "European_Union_law__16",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "In which case was a Dutch national not entitled to continue receiving benefits when he moved to Belgium?",
+    "context_id": "European_Union_law__34",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Hendrix v Employee",
+      "Hendrix v Employee Insurance Institute"
+    ]
+  },
+  {
+    "question": "What do diets with too much protein cause?",
+    "context_id": "Immune_system__29",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is European Union Law?",
+    "context_id": "European_Union_law__0",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "a body of treaties and legislation",
+      "a body of treaties and legislation, such as Regulations and Directives",
+      "a body of treaties and legislation, such as Regulations and Directives, which have direct effect or indirect effect on the laws of European Union member states"
+    ]
+  },
+  {
+    "question": "In what people is the immune system the strongest?",
+    "context_id": "Immune_system__29",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What are the 3 post popular libraries for undergraduates in the Harvard system?",
+    "context_id": "Harvard_University__20",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Cabot Science Library, Lamont Library, and Widener Library"
+    ]
+  },
+  {
+    "question": "What prestigious legal scholars are faculty members at Harvard?",
+    "context_id": "Harvard_University__29",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Alan Dershowitz and Lawrence Lessig"
+    ]
+  },
+  {
+    "question": "What is not an example of a pathogen?",
+    "context_id": "Immune_system__0",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which court is the highest court in the European Union?",
+    "context_id": "European_Union_law__1",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "The European Court of Justice"
+    ]
+  },
+  {
+    "question": "In which case were French vigilantes sabotaging shipments of Spanish Strawberries?",
+    "context_id": "European_Union_law__30",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Commission v France",
+      "Commission v France French"
+    ]
+  },
+  {
+    "question": "What evidence did Plato use to explain life-forms?",
+    "context_id": "Harvard_University__6",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Cells of the site of an infection in a plant undergo what process to prevent spread of the disease?",
+    "context_id": "Immune_system__27",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "apoptosis",
+      "rapid apoptosis"
+    ]
+  },
+  {
+    "question": "What kind of medicine can cause autoimmunity?",
+    "context_id": "Immune_system__1",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "When did the undergraduate program become coeducational?",
+    "context_id": "Harvard_University__0",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "1977"
+    ]
+  },
+  {
+    "question": "What type of law does not make Eu institutions and member states follow the law?",
+    "context_id": "European_Union_law__13",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What cells are unable to remember specific pathogens?",
+    "context_id": "Immune_system__21",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many total judges are there in the EU?",
+    "context_id": "European_Union_law__10",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "28"
+    ]
+  },
+  {
+    "question": "Where did Barack Obama give his last speech in 2016?",
+    "context_id": "Harvard_University__27",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How long was it clear how NK cells recognized tumors?",
+    "context_id": "Immune_system__14",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the first line of defense against pathogens that prevents them from entering an organism?",
+    "context_id": "Immune_system__3",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "physical barriers"
+    ]
+  },
+  {
+    "question": "What type of vote must the Council pass in order to approve of any changes recommended by Parliament?",
+    "context_id": "European_Union_law__9",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "a majority",
+      "qualified majority"
+    ]
+  },
+  {
+    "question": "Where are the Harvard medical, Dental and school of Public Health located?",
+    "context_id": "Harvard_University__11",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Longwood Medical and Academic Area"
+    ]
+  },
+  {
+    "question": "What are the two bodies that make up the European Union's legislature?",
+    "context_id": "European_Union_law__0",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "European Parliament and the Council of the European Union",
+      "the European Parliament and the Council of the European Union"
+    ]
+  },
+  {
+    "question": "What does a basic program also require?",
+    "context_id": "Harvard_University__18",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What molecules are recognized as foreign by the immune system?",
+    "context_id": "Immune_system__4",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "non-self",
+      "non-self molecules"
+    ]
+  },
+  {
+    "question": "What event did Cornell win in 2003?",
+    "context_id": "Harvard_University__26",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does Article 102 not allow the European Council to do?",
+    "context_id": "European_Union_law__28",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the cost of living near Harvard?",
+    "context_id": "Harvard_University__1",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Long-lived memory cells can remember previous encounters with what?",
+    "context_id": "Immune_system__21",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "each specific pathogen",
+      "pathogen",
+      "specific pathogen"
+    ]
+  },
+  {
+    "question": "How was US News and World Report ranked in terms of CEO positions in 2011?",
+    "context_id": "Harvard_University__22",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What did not require workforce consultation in business?",
+    "context_id": "European_Union_law__26",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who can enforce the European Union law when member states provide lesser rights?",
+    "context_id": "European_Union_law__1",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "courts of member states",
+      "the courts of member states"
+    ]
+  },
+  {
+    "question": "How many original treaties establishing the EU protected fundamental rights?",
+    "context_id": "European_Union_law__22",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "None"
+    ]
+  },
+  {
+    "question": "What arose in the latest vertebrates?",
+    "context_id": "Immune_system__38",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What liberal succeeded Joseph Willard as president?",
+    "context_id": "Harvard_University__5",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Samuel Webber"
+    ]
+  },
+  {
+    "question": "How many Nobel Laureates are among the school alumni?",
+    "context_id": "Harvard_University__1",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "150",
+      "150 Nobel laureates"
+    ]
+  },
+  {
+    "question": "What famous civil rights leader called Harvard home?",
+    "context_id": "Harvard_University__28",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "W. E. B. Du Bois"
+    ]
+  },
+  {
+    "question": "What are the two primary constitutional sources of the European Union?",
+    "context_id": "European_Union_law__2",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU)",
+      "the Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU)"
+    ]
+  },
+  {
+    "question": "Other than T cells, what other immune cells express CYP27B1?",
+    "context_id": "Immune_system__35",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "dendritic cells",
+      "dendritic cells, keratinocytes and macrophages"
+    ]
+  },
+  {
+    "question": "In what year was the school renamed as Harvard College?",
+    "context_id": "Harvard_University__3",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "1639"
+    ]
+  },
+  {
+    "question": "Who is the current President and the High Representative for Foreign and Security Policy?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Federica Mogherini",
+      "Jean-Claude Juncker"
+    ]
+  },
+  {
+    "question": "What is the effect of testosterone on the male immune system?",
+    "context_id": "Immune_system__23",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "immunosuppressive"
+    ]
+  },
+  {
+    "question": "Where are America's oldest collection of maps, gazettes, and atlases housed?",
+    "context_id": "Harvard_University__20",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Pusey Library"
+    ]
+  },
+  {
+    "question": "In what year was the charter granted for Harvard Corporation?",
+    "context_id": "Harvard_University__3",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "1650"
+    ]
+  },
+  {
+    "question": "What theory did Niels Jerne formulate?",
+    "context_id": "Immune_system__32",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What pathway that plays a role in immune response to viruses is present in all eukaryotes?",
+    "context_id": "Immune_system__36",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "RNA interference",
+      "RNA interference pathway"
+    ]
+  },
+  {
+    "question": "What compounds are released by injured or infected cells, triggering inflammation?",
+    "context_id": "Immune_system__9",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "eicosanoids",
+      "eicosanoids and cytokines"
+    ]
+  },
+  {
+    "question": "In the case Geven v Land Nordrhein-Westfalen, how many hours was the Dutch woman in question working in Germany?",
+    "context_id": "European_Union_law__34",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "3 and 14 hours a week",
+      "between 3 and 14 hours a week"
+    ]
+  },
+  {
+    "question": "What is an example of a chemical barrier?",
+    "context_id": "Immune_system__6",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "In which case did a German man claim the right to live in Netherlands where he was a volunteer plumber?",
+    "context_id": "European_Union_law__33",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Steymann v Staatssecretaris van Justitie"
+    ]
+  },
+  {
+    "question": "What part of the innate immune system directly attacks microbes?",
+    "context_id": "Immune_system__14",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the circumference of Harvard Stadium?",
+    "context_id": "Harvard_University__11",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who was the main detractor of the cellular theory of immunity?",
+    "context_id": "Immune_system__39",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What type of company is Van Gend en Loos?",
+    "context_id": "European_Union_law__14",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "a postal company"
+    ]
+  },
+  {
+    "question": "By whom is European Law applied by?",
+    "context_id": "European_Union_law__1",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "the courts of member states and the Court of Justice of the European Union"
+    ]
+  },
+  {
+    "question": "Who is suited to interpret the Treaties?",
+    "context_id": "European_Union_law__3",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "The Court of Justice of the European Union",
+      "The Court of Justice of the European Union can interpret the Treaties"
+    ]
+  },
+  {
+    "question": "How many campuses affiliated with Harvard existed in 1977?",
+    "context_id": "Harvard_University__9",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What enzyme is not an antibacterial?",
+    "context_id": "Immune_system__7",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is not needed for adaptive immune responses?",
+    "context_id": "Immune_system__15",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "When did Costa v ENEL take place?",
+    "context_id": "European_Union_law__11",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "1964"
+    ]
+  },
+  {
+    "question": "Where is it unlikely that the first multicomponent, adaptive immune system arose?",
+    "context_id": "Immune_system__38",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does the EU accept about the Court Justice?",
+    "context_id": "European_Union_law__12",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who agreed to sign the Social Charter and was exempt from the legislation covering Social Charter issues?",
+    "context_id": "European_Union_law__25",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many votes in total does the Council have?",
+    "context_id": "European_Union_law__8",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "352"
+    ]
+  },
+  {
+    "question": "What is the process of vaccination also known as?",
+    "context_id": "Immune_system__30",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "immunization"
+    ]
+  },
+  {
+    "question": "What immune system is activated by the innate response?",
+    "context_id": "Immune_system__3",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "adaptive",
+      "adaptive immune system",
+      "the adaptive immune system"
+    ]
+  },
+  {
+    "question": "What are the most powerful class of anti-inflammatory drugs?",
+    "context_id": "Immune_system__33",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Glucocorticoids"
+    ]
+  },
+  {
+    "question": "Hormones can alter the sensitivity of the immune system, so they can be referred to as what?",
+    "context_id": "Immune_system__23",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "immunomodulators"
+    ]
+  },
+  {
+    "question": "Who were the main detractors of the humoral theory of immunity?",
+    "context_id": "Immune_system__39",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many courses must undergraduates maintain for full time status?",
+    "context_id": "Harvard_University__18",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "four",
+      "four-course rate average"
+    ]
+  },
+  {
+    "question": "What is not a form of immunological memory?",
+    "context_id": "Immune_system__21",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "For most organisms, what is the dominant system of defense?",
+    "context_id": "Immune_system__5",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "The innate immune",
+      "innate immune system"
+    ]
+  },
+  {
+    "question": "How many student loans can you apply for in four years at Harvard?",
+    "context_id": "Harvard_University__19",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does Article 107 not lay down?",
+    "context_id": "European_Union_law__28",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does the failure of a pathogen depend on?",
+    "context_id": "Immune_system__31",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What rank does the Early Action program have among all others?",
+    "context_id": "Harvard_University__16",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What cells do helper B cells assist?",
+    "context_id": "Immune_system__26",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What has not been seen increasingly as a fundamental status of member state nationals by the Court of Justice?",
+    "context_id": "European_Union_law__35",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "In autoimmune disorders, the immune system doesn't distinguish between what types of cells?",
+    "context_id": "Immune_system__28",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "self and non-self"
+    ]
+  },
+  {
+    "question": "What can not be distinguished from foreign substances by the immune system?",
+    "context_id": "Immune_system__4",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Killer T cells can only recognize antigens coupled to what kind of molecules?",
+    "context_id": "Immune_system__16",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Class I MHC",
+      "Class I MHC molecules"
+    ]
+  },
+  {
+    "question": "What cells undergo slow apoptosis?",
+    "context_id": "Immune_system__27",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Did the European Court of Justice rule the defendant in the case of Commission v. Edith Cresson broke any laws?",
+    "context_id": "European_Union_law__7",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "did in fact not break any law",
+      "not"
+    ]
+  },
+  {
+    "question": "What cells do not possess an alternative T cell receptor?",
+    "context_id": "Immune_system__19",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who had a main goal of attracting the wealthy to Harvard?",
+    "context_id": "Harvard_University__8",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What powers does the Court of Justice of the European Union have in regards to treaties?",
+    "context_id": "European_Union_law__3",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "The Court of Justice of the European Union can interpret the Treaties",
+      "can interpret the Treaties, but it cannot rule on their validity"
+    ]
+  },
+  {
+    "question": "Which Treaty protects the freedom of establishment and the freedom to provide services?",
+    "context_id": "European_Union_law__36",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "the Treaty on the Functioning of the European Union"
+    ]
+  },
+  {
+    "question": "How long has Proportionality been recognized as one of the general principles of EU law?",
+    "context_id": "European_Union_law__19",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "since the 1950s"
+    ]
+  },
+  {
+    "question": "What only exists outside of jawed vertebrates?",
+    "context_id": "Immune_system__37",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is a ligand on the cell surface that is upregulated after helper T cell activation?",
+    "context_id": "Immune_system__18",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "CD40",
+      "CD40 ligand"
+    ]
+  },
+  {
+    "question": "What did Article 66 not make provisions for?",
+    "context_id": "European_Union_law__27",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What are not the 3 sources of European Union law?",
+    "context_id": "European_Union_law__0",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "The innate immune system responds in a generic way, meaning it is what?",
+    "context_id": "Immune_system__5",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "non-specific"
+    ]
+  },
+  {
+    "question": "What is not present in breast milk?",
+    "context_id": "Immune_system__22",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who elects the members of the American Parliament?",
+    "context_id": "European_Union_law__2",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What treaty was enacted in 2004?",
+    "context_id": "European_Union_law__5",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who was not the sole governing authority capable of initiating legislative proposals?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "The adaptive immune system recognizes non-self antigens during a process called what?",
+    "context_id": "Immune_system__15",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "antigen presentation"
+    ]
+  },
+  {
+    "question": "Which entities were not originally concerned with preventing violation of human rights?",
+    "context_id": "European_Union_law__22",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What field involves the study of the immune system?",
+    "context_id": "Immune_system__1",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Immunology"
+    ]
+  },
+  {
+    "question": "What reform was attempted following the Nice Treaty?",
+    "context_id": "European_Union_law__5",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "an attempt to reform the constitutional law of the European Union and make it more transparent",
+      "there was an attempt to reform the constitutional law of the European Union and make it more transparent"
+    ]
+  },
+  {
+    "question": "Dendritic cells present antigens to what cells of the adaptive nervous system?",
+    "context_id": "Immune_system__13",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "T cells"
+    ]
+  },
+  {
+    "question": "Who has a codified constitution?",
+    "context_id": "European_Union_law__2",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Common Sense Realism of what Scottish philosophers did Agassiz incorporate in his dual view of knowedge?",
+    "context_id": "Harvard_University__6",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Thomas Reid and Dugald Stewart"
+    ]
+  },
+  {
+    "question": "Who formulated the idea of clonal selection theory of immunity?",
+    "context_id": "Immune_system__32",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Frank Burnet"
+    ]
+  },
+  {
+    "question": "What has often been studied in unicellular eukaryotes?",
+    "context_id": "Immune_system__38",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What was not the view of the German Constitutional Court from Solange I and Solange II?",
+    "context_id": "European_Union_law__12",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What appearance do dendritic cells and neuronal dendrites not share?",
+    "context_id": "Immune_system__13",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is American Union Law a body of?",
+    "context_id": "European_Union_law__0",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What are white blood cells known as?",
+    "context_id": "Immune_system__12",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Leukocytes"
+    ]
+  },
+  {
+    "question": "What are peptides processed into?",
+    "context_id": "Immune_system__20",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the most common cause of immunodeficiency in developing nations?",
+    "context_id": "Immune_system__29",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "malnutrition"
+    ]
+  },
+  {
+    "question": "What stadium was built in 1920?",
+    "context_id": "Harvard_University__24",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does the First Company Law Directive article 11 not require?",
+    "context_id": "European_Union_law__17",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Eicosanoids include what compounds that result in fever and blood vessel dilation?",
+    "context_id": "Immune_system__9",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "prostaglandins"
+    ]
+  },
+  {
+    "question": "What is not caused by disorders of the immune system?",
+    "context_id": "Immune_system__1",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the legislative body not composed of?",
+    "context_id": "European_Union_law__8",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What cells are not eliminated by the immune system?",
+    "context_id": "Immune_system__28",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many receptors on a helper T cell must be bound to a MHC:antigen complex in order for the cell to be activated?",
+    "context_id": "Immune_system__18",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "around 200–300"
+    ]
+  },
+  {
+    "question": "The European Court of Justice cannot uphold measures that are incompatible with what?",
+    "context_id": "European_Union_law__21",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "fundamental rights recognised and protected in the constitutions of member states"
+    ]
+  },
+  {
+    "question": "What kind of French art is kept at the Arthur M. Sackler Museum?",
+    "context_id": "Harvard_University__21",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What immune response is not antigen-specific?",
+    "context_id": "Immune_system__15",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Inflammation occurs during sleep times because of the presence of what molecule?",
+    "context_id": "Immune_system__34",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "melatonin"
+    ]
+  },
+  {
+    "question": "What is the total number of professors, instructors, and lecturers at Harvard?",
+    "context_id": "Harvard_University__13",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "2,400"
+    ]
+  },
+  {
+    "question": "What are two types of phagocytes that travel through the body to find invading pathogens?",
+    "context_id": "Immune_system__11",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Neutrophils and macrophages"
+    ]
+  },
+  {
+    "question": "What is not effected by natural light and dark cycles?",
+    "context_id": "Immune_system__24",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does a T cell extend when it encounters a foreign pathogen?",
+    "context_id": "Immune_system__35",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "a vitamin D receptor",
+      "extends a vitamin D receptor",
+      "vitamin D receptor"
+    ]
+  },
+  {
+    "question": "Who did Frank Burnet inspire with a suggestion?",
+    "context_id": "Immune_system__32",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What antigens present differently than viral antigens?",
+    "context_id": "Immune_system__26",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What criticism in NY times article that impacts the quality of Education at Harvard?",
+    "context_id": "Harvard_University__17",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "reliance on teaching fellows"
+    ]
+  },
+  {
+    "question": "Who does the TFEU article 56 not apply to?",
+    "context_id": "European_Union_law__38",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Bacteria often secrete what kind of proteins to ingest a physical barrier?",
+    "context_id": "Immune_system__31",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "enzymes"
+    ]
+  },
+  {
+    "question": "What drugs help T cells respond to signals correctly?",
+    "context_id": "Immune_system__33",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "When were competition rules included in the Treaty of Rome?",
+    "context_id": "European_Union_law__27",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "1957"
+    ]
+  },
+  {
+    "question": "What is secreted by the respiratory tract to trap microorganisms?",
+    "context_id": "Immune_system__6",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "mucus"
+    ]
+  },
+  {
+    "question": "What chronic conditions can cause sleep deprivation?",
+    "context_id": "Immune_system__24",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "The aim of the French competition law was to do what?",
+    "context_id": "European_Union_law__32",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "cut throat competition",
+      "prevent cut throat competition"
+    ]
+  },
+  {
+    "question": "What is the function of specialize cells located in the brain?",
+    "context_id": "Immune_system__28",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the minimum percent of alcohol content a German law requires all spirits and liqueurs to have?",
+    "context_id": "European_Union_law__31",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "25",
+      "25 per cent"
+    ]
+  },
+  {
+    "question": "What is the CJEU's duty?",
+    "context_id": "European_Union_law__10",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "\"ensure that in the interpretation and application of the Treaties the law is observed\"",
+      "ensure that in the interpretation and application of the Treaties the law is observed"
+    ]
+  },
+  {
+    "question": "What kind of disorders occur when part of the immune system isn't active?",
+    "context_id": "Immune_system__29",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Immunodeficiencies"
+    ]
+  },
+  {
+    "question": "How are the votes weighted to ensure that smaller states aren't dominated by larger ones?",
+    "context_id": "European_Union_law__8",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "inversely",
+      "it is weighted inversely to member state size",
+      "weighted inversely to member state size"
+    ]
+  },
+  {
+    "question": "What president of the university transformed it into a modern research university?",
+    "context_id": "Harvard_University__0",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Charles W. Eliot"
+    ]
+  },
+  {
+    "question": "What is formed when a phagosome fuses with a lysosome?",
+    "context_id": "Immune_system__10",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "phagolysosome"
+    ]
+  },
+  {
+    "question": "Who was bound to apply an EU law where a national rule conflicted?",
+    "context_id": "European_Union_law__13",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "The function of long-lived memory cells is an example of what kind of immune response?",
+    "context_id": "Immune_system__21",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "adaptive",
+      "strong response"
+    ]
+  },
+  {
+    "question": "What commission did not resign even though faced corruption allegations?",
+    "context_id": "European_Union_law__7",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the CJEU's duty?",
+    "context_id": "European_Union_law__10",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "\"ensure that in the interpretation and application of the Treaties the law is observed\"",
+      "to \"ensure that in the interpretation and application of the Treaties the law is observed\""
+    ]
+  },
+  {
+    "question": "What does the lawfulness of action not depend on?",
+    "context_id": "European_Union_law__19",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What has the European Union not undertaken following the adoption of the Social Charter?",
+    "context_id": "European_Union_law__26",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is one of the least common causes of death in humans?",
+    "context_id": "Immune_system__30",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who can enforce the American Union law when members states provide lesser rights?",
+    "context_id": "European_Union_law__1",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "When did the European Anti-Fraud Office investigate John Dalli?",
+    "context_id": "European_Union_law__7",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "2012"
+    ]
+  },
+  {
+    "question": "What churches were the graduates of Cambridge affiliated with after 1643?",
+    "context_id": "Harvard_University__4",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does not help the free movement of goods?",
+    "context_id": "European_Union_law__30",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many total volumes are in the Harvard library system?",
+    "context_id": "Harvard_University__20",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "18 million",
+      "18 million volumes",
+      "over 18 million"
+    ]
+  },
+  {
+    "question": "What Union is Antonis Samaras a part of?",
+    "context_id": "Harvard_University__27",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "When was the basis for the Social Chapter developed?",
+    "context_id": "European_Union_law__24",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "1989"
+    ]
+  },
+  {
+    "question": "What Harvard Alumni was the Palestine Prime Minister?",
+    "context_id": "Harvard_University__27",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Benazir Bhutto",
+      "Benjamin Netanyahu"
+    ]
+  },
+  {
+    "question": "What president eliminated the Christian position in the curriculum?",
+    "context_id": "Harvard_University__7",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Charles W. Eliot"
+    ]
+  },
+  {
+    "question": "What are the phagocytes that are located in tissues in contact with the external environment called?",
+    "context_id": "Immune_system__13",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Dendritic cells"
+    ]
+  },
+  {
+    "question": "What else were families with incomes below $38,000 not required to pay for in 2009?",
+    "context_id": "Harvard_University__19",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How much did it cost to build Harvard Stadium?",
+    "context_id": "Harvard_University__2",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which member state declined to sign the Social Charter?",
+    "context_id": "European_Union_law__25",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "The UK",
+      "UK"
+    ]
+  },
+  {
+    "question": "What are peptides that help microbes flourish called?",
+    "context_id": "Immune_system__36",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How did the principle treaties that form the Canadian Union begin?",
+    "context_id": "European_Union_law__4",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What type of rules are expressly provided for in treaties?",
+    "context_id": "European_Union_law__18",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does not play a role in the immune response to viruses?",
+    "context_id": "Immune_system__36",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which country did Rewe-Zentrale AG wish to import from?",
+    "context_id": "European_Union_law__31",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "France"
+    ]
+  },
+  {
+    "question": "The success of pathogens is predicated on their ability to do what?",
+    "context_id": "Immune_system__31",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "ability to elude host immune responses",
+      "elude host immune responses"
+    ]
+  },
+  {
+    "question": "What is Harvard's total financial aid reserves?",
+    "context_id": "Harvard_University__14",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "$159 million"
+    ]
+  },
+  {
+    "question": "Antigen specificity  allows responses that are specific to certain types of what?",
+    "context_id": "Immune_system__15",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "pathogen-infected cells",
+      "pathogens",
+      "pathogens or pathogen-infected cells"
+    ]
+  },
+  {
+    "question": "What river is located near Cornell University?",
+    "context_id": "Harvard_University__26",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What was not the main executive body of the EU?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who is the Costa Rican President that went to Harvard?",
+    "context_id": "Harvard_University__27",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "José María Figueres"
+    ]
+  },
+  {
+    "question": "What is not an example of a mechanical barrier?",
+    "context_id": "Immune_system__6",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is a science that examines the structure and function of the brain?",
+    "context_id": "Immune_system__2",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What does not depend on the immune system's ability to distinguish between the self and others?",
+    "context_id": "Immune_system__4",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What do helper T cells recognize killer T cells as?",
+    "context_id": "Immune_system__26",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "The Social Chapter is a chapter of what treaty?",
+    "context_id": "European_Union_law__24",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "1997 Treaty of Amsterdam",
+      "the 1997 Treaty of Amsterdam"
+    ]
+  },
+  {
+    "question": "What is not prohibited between member states?",
+    "context_id": "European_Union_law__30",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What medicine can lead to a decline in fungi?",
+    "context_id": "Immune_system__8",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How much did students pay in total to go to Harvard in 2007?",
+    "context_id": "Harvard_University__19",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is used to enhance the effects of inflammation?",
+    "context_id": "Immune_system__33",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What year were citizens or corporations said to have been able to bring claims against other non state parties?",
+    "context_id": "European_Union_law__13",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many US presidents are alumni of the school?",
+    "context_id": "Harvard_University__1",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "eight",
+      "eight U.S. presidents"
+    ]
+  },
+  {
+    "question": "How was The Princeton Review ranked by students in 2013 for being most informative?",
+    "context_id": "Harvard_University__22",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What are the anitmicrobial peptides secreted by the skin called?",
+    "context_id": "Immune_system__7",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "β-defensins"
+    ]
+  },
+  {
+    "question": "When did the UK formally subscribe to the Agreement on Social Policy?",
+    "context_id": "European_Union_law__26",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "1997"
+    ]
+  },
+  {
+    "question": "What effect does European Union law have on laws of member states?",
+    "context_id": "European_Union_law__0",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "direct effect or indirect effect",
+      "direct effect or indirect effect on the laws of European Union member states"
+    ]
+  },
+  {
+    "question": "What organization arranged to founding of school?",
+    "context_id": "Harvard_University__3",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Great and General Court of the Massachusetts Bay Colony",
+      "Massachusetts Bay Colony"
+    ]
+  },
+  {
+    "question": "What are pathogens that travel through the body looking for phagocytes called?",
+    "context_id": "Immune_system__11",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What has operated among a decreasing plurality of national and globalising legal systems?",
+    "context_id": "European_Union_law__11",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which two importers did not claim that under French competition law, they were prevented from selling Picon beer under wholesale price?",
+    "context_id": "European_Union_law__32",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What antibody is transported from the mother to baby across the placenta?",
+    "context_id": "Immune_system__22",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "IgG"
+    ]
+  },
+  {
+    "question": "What percentage of the student body is accepted to the Phi Beta Kappa honor society each year?",
+    "context_id": "Harvard_University__18",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How must legislation in member states which implements EU law must not be worded?",
+    "context_id": "European_Union_law__20",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What acquired condition results in immunodeficiency in humans?",
+    "context_id": "Immune_system__1",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "HIV/AIDS"
+    ]
+  },
+  {
+    "question": "As a person gets older, what does the skin produce less of?",
+    "context_id": "Immune_system__25",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "vitamin D",
+      "vitamin D."
+    ]
+  },
+  {
+    "question": "What is the major US city that the is the university located?",
+    "context_id": "Harvard_University__2",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Boston",
+      "Boston metropolitan area"
+    ]
+  },
+  {
+    "question": "What caused the need for principal Treaties that ended up forming the EU?",
+    "context_id": "European_Union_law__4",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "common rules for coal and steel, and then atomic energy",
+      "with common rules for coal and steel"
+    ]
+  },
+  {
+    "question": "Who did the Court of Justice say could help the freedom of establishment?",
+    "context_id": "European_Union_law__36",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many roles do the types of B cell have?",
+    "context_id": "Immune_system__16",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Low doses of anti-inflammatories are sometimes used with what classes of drugs?",
+    "context_id": "Immune_system__33",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Cytotoxic drugs",
+      "cytotoxic or immunosuppressive",
+      "cytotoxic or immunosuppressive drugs"
+    ]
+  },
+  {
+    "question": "How often does the European Council meet?",
+    "context_id": "European_Union_law__8",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "each six months"
+    ]
+  },
+  {
+    "question": "When was the European Communities Act denied acceptance?",
+    "context_id": "European_Union_law__12",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who was President of Radcliffe from 1869-1909?",
+    "context_id": "Harvard_University__0",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What amount of money did Kent-Brown have invested in Harvard?",
+    "context_id": "Harvard_University__15",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which company did Mrs Foster work for?",
+    "context_id": "European_Union_law__16",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "British Gas plc"
+    ]
+  },
+  {
+    "question": "What cells do not carry receptor molecules?",
+    "context_id": "Immune_system__16",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "In which case did the Court of Justice review Swedish bans on advertising to young children under 12?",
+    "context_id": "European_Union_law__32",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Konsumentombudsmannen v De Agostini"
+    ]
+  },
+  {
+    "question": "How does the TFEU revise old legislation?",
+    "context_id": "European_Union_law__9",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Who are the un-elected subordinates of member state governments?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Commissioners"
+    ]
+  },
+  {
+    "question": "Since 1978 how many courses have students in the Ethical Reasoning program needed to take?",
+    "context_id": "Harvard_University__17",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which actions by EU institutions can be subject to judicial review?",
+    "context_id": "European_Union_law__13",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "All actions",
+      "All actions by EU institutions can be subject to judicial review"
+    ]
+  },
+  {
+    "question": "Which caused the reform to come into force?",
+    "context_id": "European_Union_law__5",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What were states not responsible for in Article 34?",
+    "context_id": "European_Union_law__30",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Why could a Dutch lawyer who moved to Belgium give legal advice?",
+    "context_id": "European_Union_law__38",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many sports are played at the athletics facilites?",
+    "context_id": "Harvard_University__2",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Phagocytes can be called to a specific location by what?",
+    "context_id": "Immune_system__10",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "cytokines"
+    ]
+  },
+  {
+    "question": "What did Eliot handing out The Harvard Crimson at a regatta do for the school in 1875?",
+    "context_id": "Harvard_University__13",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What year did Ireland agree to the changes in Treaty of Lisbon?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many intercollegiate sports does Harvard compete in NCAA division I",
+    "context_id": "Harvard_University__23",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "42"
+    ]
+  },
+  {
+    "question": "What is the name of Harvard's basketball facility?",
+    "context_id": "Harvard_University__25",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Lavietes Pavilion"
+    ]
+  },
+  {
+    "question": "How many paid holiday days does the Working Time directive require workers to have each year?",
+    "context_id": "European_Union_law__15",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "4 weeks",
+      "4 weeks paid",
+      "4 weeks paid holidays each year"
+    ]
+  },
+  {
+    "question": "What did countries such as Spain have a crime against?",
+    "context_id": "European_Union_law__37",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Antibodies are transferred to the gut of the infant through what means?",
+    "context_id": "Immune_system__22",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Breast milk",
+      "Breast milk or colostrum"
+    ]
+  },
+  {
+    "question": "What does a pathogen do when it encounters a T-cell?",
+    "context_id": "Immune_system__35",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What political scientist is one of the founders of the theory of neoliberalism?",
+    "context_id": "Harvard_University__29",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What kind of enrollments did the Ethical Reasoning program have in 2007?",
+    "context_id": "Harvard_University__17",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What project did Harvard halt due to the financial crisis?",
+    "context_id": "Harvard_University__14",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Allston Science Complex",
+      "construction of the $1.2 billion Allston Science Complex"
+    ]
+  },
+  {
+    "question": "What are the core treaties that the primary law of the EU consists of?",
+    "context_id": "European_Union_law__3",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU)",
+      "the Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU)"
+    ]
+  },
+  {
+    "question": "In what year was the school formed?",
+    "context_id": "Harvard_University__3",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "1636"
+    ]
+  },
+  {
+    "question": "What kind of rivalry do Oxford and Cambridge have?",
+    "context_id": "Harvard_University__23",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What theory of immunity is no longer influential?",
+    "context_id": "Immune_system__32",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which newspaper's parent company could not evade tax by shifting its residence to the Netherlands?",
+    "context_id": "European_Union_law__39",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Daily Mail",
+      "the Daily Mail"
+    ]
+  },
+  {
+    "question": "How are decisions made on behave of the EU made?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "a simple majority",
+      "a simple majority vote",
+      "simple majority vote"
+    ]
+  },
+  {
+    "question": "In which case did the Court state that Austria was not allowed to hold places in Austrian schools exclusively for Austrian students?",
+    "context_id": "European_Union_law__35",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Commission v Austria",
+      "Commission v Austria the Court"
+    ]
+  },
+  {
+    "question": "Which actions by EU institutions were not subject to judicial review?",
+    "context_id": "European_Union_law__13",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What medical school is located in Allston?",
+    "context_id": "Harvard_University__11",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What two country's referendums curtailed a constitution for Europe?",
+    "context_id": "European_Union_law__5",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "referendum in France and the referendum in the Netherlands",
+      "the referendum in France and the referendum in the Netherlands"
+    ]
+  },
+  {
+    "question": "Which laws mentioned predate EU law?",
+    "context_id": "European_Union_law__20",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "international law and public law"
+    ]
+  },
+  {
+    "question": "What molecules of the adaptive immune system only exist in jawed vertebrates?",
+    "context_id": "Immune_system__37",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "immunoglobulins",
+      "immunoglobulins and T cell receptors"
+    ]
+  },
+  {
+    "question": "What year was the ECSC agreement established?",
+    "context_id": "European_Union_law__27",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "1951"
+    ]
+  },
+  {
+    "question": "What is a rare cytokine?",
+    "context_id": "Immune_system__9",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which authority figure is designated to schedule and set the work of the EU?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "The Commission's President",
+      "The Commission's President ("
+    ]
+  },
+  {
+    "question": "What is not prevented from entering an organism?",
+    "context_id": "Immune_system__3",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is tuition for 2012 - 13 year at Harvard?",
+    "context_id": "Harvard_University__19",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "$38,000"
+    ]
+  },
+  {
+    "question": "What gene is expressed by the B-cell?",
+    "context_id": "Immune_system__35",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "In what body of water is the Harvard - Yale Regatta held?",
+    "context_id": "Harvard_University__26",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Thames River"
+    ]
+  },
+  {
+    "question": "What causes the immune system to treat foreign organisms like normal tissues?",
+    "context_id": "Immune_system__1",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which Belgian footballer claimed that he should be allowed to transfer from one football club to another when his contract was fulfilled?",
+    "context_id": "European_Union_law__34",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Jean-Marc Bosman",
+      "the Belgian Football Association v Bosman"
+    ]
+  },
+  {
+    "question": "What kind of access for undergraduates do the Harvard University Archives have?",
+    "context_id": "Harvard_University__20",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which laws mentioned not not predate EU law?",
+    "context_id": "European_Union_law__20",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What are produced from a large number of genes?",
+    "context_id": "Immune_system__37",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Why was the Dutch lawyer who moved to Belgium while advising a client in a social society case told he couldn't continue?",
+    "context_id": "European_Union_law__38",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "Dutch law said only people established in the Netherlands could give legal advice",
+      "because Dutch law said only people established in the Netherlands could give legal advice"
+    ]
+  },
+  {
+    "question": "What entity does not enforce the Charter of Fundamental Rights of the European Union?",
+    "context_id": "European_Union_law__23",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Where does a phagocyte get stuck in a pathogen?",
+    "context_id": "Immune_system__10",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is partially responsible for weakened immune response in older individuals?",
+    "context_id": "Immune_system__25",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "decline in hormone levels",
+      "decline in hormone levels with age"
+    ]
+  },
+  {
+    "question": "What denomination was the Hollis Professor of Divinity connected to?",
+    "context_id": "Harvard_University__5",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How many museums comprise Harvard Art Museums?",
+    "context_id": "Harvard_University__21",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "three",
+      "three museums."
+    ]
+  },
+  {
+    "question": "The immune system protects organisms against what?",
+    "context_id": "Immune_system__0",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "disease"
+    ]
+  },
+  {
+    "question": "What happens when B cells and T cells are deactivated?",
+    "context_id": "Immune_system__21",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Missing self desribes cells that only have small amounts of what cell-surface marker?",
+    "context_id": "Immune_system__14",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "MHC I",
+      "MHC I (major histocompatibility complex)"
+    ]
+  },
+  {
+    "question": "What cell is unable to act as a scavenger?",
+    "context_id": "Immune_system__11",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What vitamin do T-cells have a parasitic relationship with?",
+    "context_id": "Immune_system__35",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "For each of the 28 member states, how many Commissioner's are represented for each one?",
+    "context_id": "European_Union_law__6",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "one",
+      "one Commissioner for each of the 28 member states"
+    ]
+  },
+  {
+    "question": "Under normal conditions, T cells and antibodies produce what kind of peptides?",
+    "context_id": "Immune_system__28",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "\"self\" peptides",
+      "self",
+      "self\" peptides"
+    ]
+  },
+  {
+    "question": "What major adjust was made to the treaties in 1960?",
+    "context_id": "European_Union_law__4",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "How did Yale introduce a new era in football?",
+    "context_id": "Harvard_University__24",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is one supplementary source of European Union law?",
+    "context_id": "European_Union_law__1",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "international law"
+    ]
+  },
+  {
+    "question": "The production of what signalling molecules is regulated by the immune system?",
+    "context_id": "Immune_system__25",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "hormones"
+    ]
+  },
+  {
+    "question": "How much land does Cambridge own in Allston?",
+    "context_id": "Harvard_University__12",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "In what year did Harvard win an Intercolleiate Sailing Association National Championship?",
+    "context_id": "Harvard_University__26",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "2003"
+    ]
+  },
+  {
+    "question": "What type of vote must the Parliament have to either block or suggest changes to the Commission's proposals?",
+    "context_id": "European_Union_law__9",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "a Commission proposal",
+      "a majority"
+    ]
+  },
+  {
+    "question": "Who has the power to initiate legislation within the European Union?",
+    "context_id": "European_Union_law__2",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "The European Commission"
+    ]
+  },
+  {
+    "question": "What does not compete with commensal flora for food and space?",
+    "context_id": "Immune_system__8",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What evolved in modern jawed vertebrates?",
+    "context_id": "Immune_system__37",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Where are neutrophils rarely found?",
+    "context_id": "Immune_system__11",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What year did the UK, Ireland, Denmark, and Norway refuse to join the EU?",
+    "context_id": "European_Union_law__4",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What is the name of world renowned cellist is a former Harvard student?",
+    "context_id": "Harvard_University__28",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Yo Yo Ma"
+    ]
+  },
+  {
+    "question": "What is a protein that is closely intertwined with circadian rhythms?",
+    "context_id": "Immune_system__24",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "NFIL3"
+    ]
+  },
+  {
+    "question": "What does TFEU article 288 not say?",
+    "context_id": "European_Union_law__15",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which court did not argue that the Treaty of Rome did not prevent energy nationalism?",
+    "context_id": "European_Union_law__11",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What was developed in the 1980's by the social partners representatives?",
+    "context_id": "European_Union_law__24",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Under which courts is most EU law applied?",
+    "context_id": "European_Union_law__10",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "member state courts"
+    ]
+  },
+  {
+    "question": "What does the Lavietes Pavillion serve as a satellite location for?",
+    "context_id": "Harvard_University__25",
+    "topic": "Harvard_University",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What Fields Medal winning Mathematician is a faculty member at Harvard?",
+    "context_id": "Harvard_University__29",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "Shing-Tung Yau"
+    ]
+  },
+  {
+    "question": "When a pathogen has been eaten by a phagocyte it becomes trapped in what vesicle?",
+    "context_id": "Immune_system__10",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "phagosome"
+    ]
+  },
+  {
+    "question": "What other scientist influence Frank Burnet when he was formulating his theory of immunity?",
+    "context_id": "Immune_system__32",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "Niels Jerne"
+    ]
+  },
+  {
+    "question": "What title was the Social Charter not set to be included into the Masstricht treaty under?",
+    "context_id": "European_Union_law__25",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What do T cells recognize before antigens have been processed?",
+    "context_id": "Immune_system__16",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What did the Italian government not fail to implement?",
+    "context_id": "European_Union_law__16",
+    "topic": "European_Union_law",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "What year was North America's first printing press started?",
+    "context_id": "Harvard_University__3",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "1638"
+    ]
+  },
+  {
+    "question": "In which year did a toxic waste spill from a European ship prompt the Commission to look into legislation against waste?",
+    "context_id": "European_Union_law__37",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "2006"
+    ]
+  },
+  {
+    "question": "In what cases can the EU not override German law?",
+    "context_id": "European_Union_law__12",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "if the EU does not comply with its basic constitutional rights and principles"
+    ]
+  },
+  {
+    "question": "What can antibodies not neutralize?",
+    "context_id": "Immune_system__20",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "In what year did Harvard Stadium become the first ever concrete reinforced stadium in the country?",
+    "context_id": "Harvard_University__24",
+    "topic": "Harvard_University",
+    "label": "answerable",
+    "gold": [
+      "1903"
+    ]
+  },
+  {
+    "question": "What cell never reacts with self peptides?",
+    "context_id": "Immune_system__28",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  },
+  {
+    "question": "Which type of law concerns the EU's governance structure?",
+    "context_id": "European_Union_law__13",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "constitutional law"
+    ]
+  },
+  {
+    "question": "What is the main defense mechanism of bacteria known as?",
+    "context_id": "Immune_system__38",
+    "topic": "Immune_system",
+    "label": "answerable",
+    "gold": [
+      "restriction modification system",
+      "the restriction modification system"
+    ]
+  },
+  {
+    "question": "Which branch of the EU has had the most influence on the development of EU law?",
+    "context_id": "European_Union_law__10",
+    "topic": "European_Union_law",
+    "label": "answerable",
+    "gold": [
+      "The judicial branch",
+      "judicial branch"
+    ]
+  },
+  {
+    "question": "What is activated before the innate response in vertebrates?",
+    "context_id": "Immune_system__3",
+    "topic": "Immune_system",
+    "label": "unanswerable",
+    "gold": []
+  }
+]
