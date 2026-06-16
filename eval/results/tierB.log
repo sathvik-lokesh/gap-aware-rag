@@ -1,0 +1,40 @@
+evaluating 100 questions (50/label), 0 cached
+[1/100] answ | Who formulated the idea of clonal selection theory of i
+[2/100] answ | What liberal succeeded Joseph Willard as president?
+[3/100] answ | Where are the specialized cells that eliminate cells th
+[4/100] answ | Long-lived memory cells can remember previous encounter
+[5/100] answ | What field involves the study of the immune system?
+[6/100] answ | What Fields Medal winning Mathematician is a faculty me
+[7/100] answ | Who is suited to interpret the Treaties?
+[8/100] answ | In autoimmune disorders, the immune system doesn't dist
+[9/100] answ | For each of the 28 member states, how many Commissioner
+[10/100] answ | What are the phagocytes that are located in tissues in 
+[11/100] answ | What Harvard Alumni was the Palestine Prime Minister?
+[12/100] answ | The immune system protects organisms against what?
+[13/100] answ | What antibody is transported from the mother to baby ac
+[14/100] answ | What are the anitmicrobial peptides secreted by the ski
+Traceback (most recent call last):
+  File "/home/sathv/Hanuman/gap-aware-rag/eval/eval_endtoend.py", line 152, in <module>
+    main()
+  File "/home/sathv/Hanuman/gap-aware-rag/eval/eval_endtoend.py", line 89, in main
+    ga = agent_run(idx, q["question"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sathv/Hanuman/gap-aware-rag/gaprag/agent.py", line 196, in run
+    sub_answers = [answer_subquestion(index, s) for s in subs]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sathv/Hanuman/gap-aware-rag/gaprag/agent.py", line 158, in answer_subquestion
+    v = verify_fact(subq, passages)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sathv/Hanuman/gap-aware-rag/gaprag/agent.py", line 121, in verify_fact
+    out = chat(prompt, system=_VERIFY_SYS, model=AGENT_MODEL)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sathv/Hanuman/gap-aware-rag/gaprag/llm.py", line 64, in chat
+    return _chat_groq(messages, model, temperature)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sathv/Hanuman/gap-aware-rag/gaprag/llm.py", line 53, in _chat_groq
+    raise last_err
+  File "/home/sathv/Hanuman/gap-aware-rag/gaprag/llm.py", line 49, in _chat_groq
+    r.raise_for_status()
+  File "/home/sathv/Hanuman/gap-aware-rag/.venv/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions

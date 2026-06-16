@@ -1,9 +1,24 @@
 """Central config. Keep all tunables here so experiments are reproducible."""
 from __future__ import annotations
+import os
 from dataclasses import dataclass
 from pathlib import Path
 
 OLLAMA_URL = "http://localhost:11434"
+
+# LLM backend: "ollama" (fully local, default) or "groq" (fast hosted, needs
+# GROQ_API_KEY). Set GAPRAG_LLM_BACKEND=groq to route chat() through Groq's
+# OpenAI-compatible endpoint — the eval measures the gap-aware ARCHITECTURE, not
+# the model, so swapping in a faster/stronger verifier is sound (and far faster
+# than 7b on this CPU box). The local path stays the reproducible default.
+LLM_BACKEND = os.environ.get("GAPRAG_LLM_BACKEND", "ollama").lower()
+GROQ_URL = "https://api.groq.com/openai/v1"
+# Map the local Ollama model names the code already passes around to their Groq
+# equivalents, so nothing else in the codebase has to change.
+GROQ_MODEL_MAP = {
+    "qwen2.5:7b": "llama-3.3-70b-versatile",  # verification / planning
+    "qwen2.5:3b": "llama-3.1-8b-instant",     # cheap judging / rewriting
+}
 # Max chunks sampled to build the calibration distribution (one LLM pseudo-query
 # each). Enough to estimate percentiles without an LLM call per corpus chunk.
 CALIBRATION_SAMPLE = 60

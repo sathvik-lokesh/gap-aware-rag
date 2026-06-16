@@ -28,7 +28,7 @@ sys.path.insert(0, str(ROOT))
 from gaprag import Index, retrieve, run as agent_run  # noqa: E402
 from gaprag.llm import chat  # noqa: E402
 from gaprag.agent import AGENT_MODEL  # noqa: E402
-from gaprag.config import OLLAMA_URL, CFG  # noqa: E402
+from gaprag.config import OLLAMA_URL, CFG, LLM_BACKEND  # noqa: E402
 from eval.metrics import contains_gold, token_f1, looks_like_abstention  # noqa: E402
 
 INDEX = ROOT / "index_store_squad"
@@ -48,6 +48,11 @@ def naive_rag(idx: Index, question: str) -> str:
 
 
 def warm_up():
+    # Only meaningful for the local Ollama backend (7b cold-starts slowly on the
+    # 8GB box). On Groq the weights are always warm, so skip it — otherwise we'd
+    # needlessly load 7b into local RAM.
+    if LLM_BACKEND == "groq":
+        return
     requests.post(f"{OLLAMA_URL}/api/chat", json={
         "model": AGENT_MODEL, "messages": [{"role": "user", "content": "ok"}],
         "stream": False, "keep_alive": "10m"}, timeout=300)

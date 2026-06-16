@@ -1,8 +1,16 @@
 # Resume Here — Gap-Aware Agentic RAG
 
-Session paused 2026-06-16. Working on **M5 (portfolio-grade eval)** to make the
+Session paused 2026-06-17. Working on **M5 (portfolio-grade eval)** to make the
 repo Nvidia-interview-ready: real corpus + hard numbers + plots + results-first
 README.
+
+> **NEW THIS SESSION — Groq backend.** Added a hosted LLM path so the slow
+> verification calls don't crawl on the local 7b. Set `GAPRAG_LLM_BACKEND=groq`
+> (needs `GROQ_API_KEY`, already in env) and `chat()` routes to Groq's
+> OpenAI-compatible API. Model map in `gaprag/config.py`: `qwen2.5:7b →
+> llama-3.3-70b-versatile`, `qwen2.5:3b → llama-3.1-8b-instant`. Default backend
+> is still local `ollama` (reproducible). Smoke-tested: ~0.1–0.2s/call vs 420s
+> local timeout. `_chat_groq` now backs off on 429 (free tier TPM cap).
 
 ## Current state
 
@@ -17,28 +25,28 @@ corpus (CEO answered, CFO abstained, etc.).
 - ✅ Labeled question set: `eval/questions.json` (160 answerable + 160 unanswerable).
 - ✅ Calibrated index saved: `index_store_squad/` (regenerate with
   `scripts/build_index_squad.py`, ~12 min).
-- ✅ Tier A separation eval ran once: **AUC 0.66 (single signal)** — embeddings
-  barely separate adversarial unanswerables (this MOTIVATES the verification layer).
-  NOTE: `eval/results/separation.json` is OLD-SCHEMA from the first run; re-run to
-  get the combined-signal CV-AUC and correct keys.
+- ✅ Tier A separation eval **RE-RUN with correct schema** (`separation.json`):
+  **ROC-AUC 0.662 (top1 sim only), 0.647 combined-signal 5-fold CV** — embeddings
+  barely separate adversarial unanswerables (this MOTIVATES the verification
+  layer). GAP verdict flags 25% of unanswerables / wrongly flags 16% of
+  answerables (those get rescued later by LLM verification). DONE — don't re-run.
 - ✅ Eval harness + plots written (`eval/eval_separation.py`, `eval/eval_endtoend.py`,
   `eval/make_plots.py`, `eval/metrics.py`).
-- ❌ Tier B (end-to-end Gap-Aware vs naive RAG) NOT yet run successfully — only
-  warm-up reached before pausing. `eval/results/endtoend.jsonl` is empty.
+- 🔶 Tier B (end-to-end Gap-Aware vs naive RAG) **STARTED via Groq, 14/100 done**
+  and cached in `eval/results/endtoend.jsonl` (RESUMABLE — skips cached questions).
+  Stopped mid-run on a Groq 429 before the backoff fix landed; now fixed. Just
+  re-run the same command tomorrow and it picks up from #14.
 
 ## Next steps (in order)
 
-1. **Re-run Tier A** (fast, ~1 min, regenerates correct separation.json):
+1. **Finish Tier B** (RESUMABLE — skips the 14 already cached). Use Groq, it's
+   fast and the 429 backoff is now in place:
    ```
-   uv run python eval/eval_separation.py
+   GAPRAG_LLM_BACKEND=groq uv run python eval/eval_endtoend.py 50
    ```
-2. **Run Tier B** (slow, ~30–60 min on this 8GB CPU box; RESUMABLE — it skips
-   questions already in endtoend.jsonl). Start small if impatient:
-   ```
-   uv run python eval/eval_endtoend.py 12
-   ```
-3. **Make plots:** `uv run python eval/make_plots.py`
-4. **Rewrite README to lead with results** (task #4): headline numbers + plots
+   (50/label = 100 questions. Drop the number if you want a quicker pass.)
+2. **Make plots:** `uv run python eval/make_plots.py`
+3. **Rewrite README to lead with results** (task #4): headline numbers + plots
    at the top, then architecture, then the 8 lessons.
 
 ## Hard-won gotchas (don't relearn these)
@@ -50,6 +58,12 @@ corpus (CEO answered, CFO abstained, etc.).
 - Tier B writes incrementally to `eval/results/endtoend.jsonl` → crash-safe/resumable.
 - If the naive baseline abstains too naturally (weak contrast), make its prompt a
   stricter always-answer RAG to represent a true no-gap-awareness baseline.
+- **Groq free tier is TPM-limited**, so a long eval WILL hit 429s — the agent
+  fires several token-heavy verify calls per question. `_chat_groq` now honors
+  `Retry-After` + exponential backoff (8 attempts), so it self-throttles; just
+  let it run. `warm_up()` is skipped on the Groq backend (no local 7b to warm).
+- **Embeddings stay local** (`nomic-embed-text` via Ollama) even on the Groq
+  backend — only `chat()`/verification is hosted. Ollama must still be running.
 
 ## Stretch (after M5 numbers are in)
 
