@@ -1,0 +1,29 @@
+{
+  "n_multihop": 15,
+  "n_partial": 15,
+  "systems": [
+    "naive",
+    "abstain",
+    "gap_aware"
+  ],
+  "multihop_both_present": {
+    "naive": 0.3333333333333333,
+    "abstain": 0.26666666666666666,
+    "gap_aware": 0.4666666666666667
+  },
+  "partial_graceful": {
+    "naive": 0.3333333333333333,
+    "abstain": 0.3333333333333333,
+    "gap_aware": 0.6666666666666666
+  },
+  "partial_got_known": {
+    "naive": 0.5333333333333333,
+    "abstain": 0.5333333333333333,
+    "gap_aware": 0.7333333333333333
+  },
+  "partial_flagged_gap": {
+    "naive": 0.6666666666666666,
+    "abstain": 0.7333333333333333,
+    "gap_aware": 0.8666666666666667
+  }
+}

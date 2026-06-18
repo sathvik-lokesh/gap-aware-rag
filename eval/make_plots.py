@@ -16,6 +16,12 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 OUT = Path(__file__).resolve().parent / "results"
 NAVY, ORANGE = "#1f3a5f", "#e07b39"
+# colour + label per system id (the fair abstain baseline sits between the two)
+SYSTEMS = {
+    "naive": ("#e07b39", "naive RAG (always answers)"),
+    "abstain": ("#8c9bab", "RAG + abstain prompt"),
+    "gap_aware": ("#1f3a5f", "Gap-Aware RAG"),
+}
 
 
 def plot_separation():
@@ -52,31 +58,57 @@ def plot_separation():
 
 def plot_endtoend():
     s = json.loads((OUT / "endtoend_summary.json").read_text())
-    labels = ["Answerable\naccuracy ↑", "Unanswerable\nHALLUCINATION ↓",
-              "Unanswerable\nabstention ↑"]
-    naive = [s["answerable_accuracy"]["naive"],
-             s["unanswerable_hallucination_rate"]["naive"],
-             s["unanswerable_abstention_rate"]["naive"]]
-    ga = [s["answerable_accuracy"]["gap_aware"],
-          s["unanswerable_hallucination_rate"]["gap_aware"],
-          s["unanswerable_abstention_rate"]["gap_aware"]]
+    metrics = [("Answerable\naccuracy ↑", "answerable_accuracy"),
+               ("Unanswerable\nHALLUCINATION ↓", "unanswerable_hallucination_rate"),
+               ("Unanswerable\nabstention ↑", "unanswerable_abstention_rate")]
+    sys_ids = s.get("systems", ["naive", "gap_aware"])
 
-    x = np.arange(len(labels)); w = 0.38
-    fig, ax = plt.subplots(figsize=(8.5, 4.6))
-    b1 = ax.bar(x - w/2, naive, w, label="naive RAG", color=ORANGE)
-    b2 = ax.bar(x + w/2, ga, w, label="Gap-Aware RAG", color=NAVY)
-    ax.set_xticks(x); ax.set_xticklabels(labels)
-    ax.set_ylim(0, 1); ax.set_ylabel("rate")
-    ax.set_title(f"Gap-Aware vs naive RAG  (SQuAD 2.0, "
-                 f"n={s['n_answerable']+s['n_unanswerable']})")
-    ax.legend()
-    for bars in (b1, b2):
+    x = np.arange(len(metrics))
+    w = 0.8 / len(sys_ids)
+    fig, ax = plt.subplots(figsize=(9.5, 4.8))
+    for j, sid in enumerate(sys_ids):
+        color, label = SYSTEMS[sid]
+        vals = [s[sec][sid] for _, sec in metrics]
+        off = (j - (len(sys_ids) - 1) / 2) * w
+        bars = ax.bar(x + off, vals, w, label=label, color=color)
         for b in bars:
             ax.text(b.get_x() + b.get_width()/2, b.get_height() + 0.02,
-                    f"{b.get_height():.0%}", ha="center", fontsize=9)
+                    f"{b.get_height():.0%}", ha="center", fontsize=8)
+    ax.set_xticks(x); ax.set_xticklabels([m for m, _ in metrics])
+    ax.set_ylim(0, 1); ax.set_ylabel("rate")
+    ax.set_title(f"Gap-Aware vs baseline RAGs  (SQuAD 2.0, "
+                 f"n={s['n_answerable']+s['n_unanswerable']})")
+    ax.legend(loc="upper right", fontsize=9)
     fig.tight_layout()
     fig.savefig(OUT / "fig_endtoend.png", dpi=130)
     print("wrote fig_endtoend.png")
+
+
+def plot_compound():
+    s = json.loads((OUT / "compound_summary.json").read_text())
+    metrics = [(f"Multi-hop\nboth facts found ↑\n(n={s['n_multihop']})",
+                "multihop_both_present"),
+               (f"Partial coverage\ngraceful answer ↑\n(n={s['n_partial']})",
+                "partial_graceful")]
+    sys_ids = s.get("systems", ["naive", "abstain", "gap_aware"])
+
+    x = np.arange(len(metrics)); w = 0.8 / len(sys_ids)
+    fig, ax = plt.subplots(figsize=(8.5, 4.8))
+    for j, sid in enumerate(sys_ids):
+        color, label = SYSTEMS[sid]
+        vals = [s[sec][sid] for _, sec in metrics]
+        off = (j - (len(sys_ids) - 1) / 2) * w
+        bars = ax.bar(x + off, vals, w, label=label, color=color)
+        for b in bars:
+            ax.text(b.get_x() + b.get_width()/2, b.get_height() + 0.02,
+                    f"{b.get_height():.0%}", ha="center", fontsize=9)
+    ax.set_xticks(x); ax.set_xticklabels([m for m, _ in metrics])
+    ax.set_ylim(0, 1); ax.set_ylabel("rate")
+    ax.set_title("Where Gap-Aware RAG earns its keep: COMPOUND questions")
+    ax.legend(loc="upper right", fontsize=9)
+    fig.tight_layout()
+    fig.savefig(OUT / "fig_compound.png", dpi=130)
+    print("wrote fig_compound.png")
 
 
 if __name__ == "__main__":
@@ -84,3 +116,5 @@ if __name__ == "__main__":
         plot_separation()
     if (OUT / "endtoend_summary.json").exists():
         plot_endtoend()
+    if (OUT / "compound_summary.json").exists():
+        plot_compound()
