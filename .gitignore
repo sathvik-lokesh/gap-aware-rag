@@ -18,4 +18,9 @@ data_squad/dev-v2.0.json
 eval/results/*.log
 *.bak
 
-# Personal working notes (kept locally, not published)
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
