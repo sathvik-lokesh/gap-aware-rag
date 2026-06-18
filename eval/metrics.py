@@ -8,11 +8,14 @@ _PUNCT = str.maketrans("", "", string.punctuation)
 
 # Phrases a model uses when it (correctly or not) declines to answer.
 _ABSTAIN = re.compile(
-    r"\b(not? (mention|state|provid|specif|given|available|include|contain)"
+    r"\b(not? (mention|state|provid|specif|given|available|include|contain|cover)"
     r"|no (information|answer|mention|data)|cannot (be )?(determin|answer|found)"
     r"|can'?t (determin|answer)|does not (say|mention|provide|specify)"
     r"|doesn'?t (say|mention|provide|specify)|unanswerable|not (found|present)"
-    r"|insufficient|unknown|n/?a|unclear|unable to)\b",
+    r"|do(es)?n'?t know|no idea"
+    # NOTE: no trailing \b — the stem prefixes above (cover, provid, specif, …)
+    # must still match their inflected forms ("covered", "provided", "mentions").
+    r"|insufficient|unknown|n/?a|unclear|unable to)",
     re.IGNORECASE,
 )
 

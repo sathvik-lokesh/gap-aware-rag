@@ -1,0 +1,29 @@
+{
+  "n_answerable": 50,
+  "n_unanswerable": 50,
+  "systems": [
+    "naive",
+    "abstain",
+    "gap_aware"
+  ],
+  "answerable_accuracy": {
+    "naive": 0.76,
+    "abstain": 0.72,
+    "gap_aware": 0.72
+  },
+  "answerable_f1": {
+    "naive": 0.7058861977686448,
+    "abstain": 0.6803939393939394,
+    "gap_aware": 0.46311906368485317
+  },
+  "unanswerable_hallucination_rate": {
+    "naive": 0.78,
+    "abstain": 0.4,
+    "gap_aware": 0.42
+  },
+  "unanswerable_abstention_rate": {
+    "naive": 0.21999999999999997,
+    "abstain": 0.6,
+    "gap_aware": 0.5800000000000001
+  }
+}

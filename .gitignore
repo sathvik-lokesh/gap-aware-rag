@@ -9,8 +9,14 @@ wheels/
 # Virtual environments
 .venv
 
-# Generated/regenerable artifacts
+# Large regenerable artifacts (rebuild with scripts/build_index_squad.py)
 index_store/
 index_store_squad/
 data_squad/dev-v2.0.json
-eval/results/*.png
+
+# Transient run logs and scratch backups (results data + plots ARE tracked)
+eval/results/*.log
+*.bak
+
+# Personal working notes (kept locally, not published)
+RESUME.md

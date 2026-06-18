@@ -1,0 +1,316 @@
+[
+  {
+    "kind": "multihop",
+    "topic": "European_Union_law",
+    "question": "Which Treaty protects the freedom of establishment and the freedom to provide services? And when did Costa v ENEL take place?",
+    "gold1": [
+      "the Treaty on the Functioning of the European Union"
+    ],
+    "gold2": [
+      "1964"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "European_Union_law",
+    "question": "The European Court of Justice cannot uphold measures that are incompatible with what? And which member state declined to sign the Social Charter?",
+    "gold1": [
+      "fundamental rights recognised and protected in the constitutions of member states"
+    ],
+    "gold2": [
+      "The UK",
+      "UK"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "European_Union_law",
+    "question": "How many original treaties establishing the EU protected fundamental rights? And what caused the need for principal Treaties that ended up forming the EU?",
+    "gold1": [
+      "None"
+    ],
+    "gold2": [
+      "common rules for coal and steel, and then atomic energy",
+      "with common rules for coal and steel"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Immune_system",
+    "question": "Missing self desribes cells that only have small amounts of what cell-surface marker? And phagocytes can be called to a specific location by what?",
+    "gold1": [
+      "MHC I",
+      "MHC I (major histocompatibility complex)"
+    ],
+    "gold2": [
+      "cytokines"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Harvard_University",
+    "question": "Where are the Harvard medical, Dental and school of Public Health located? And what president eliminated the Christian position in the curriculum?",
+    "gold1": [
+      "Longwood Medical and Academic Area"
+    ],
+    "gold2": [
+      "Charles W. Eliot"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Harvard_University",
+    "question": "What project did Harvard halt due to the financial crisis? And how many Nobel Laureates are among the school alumni?",
+    "gold1": [
+      "Allston Science Complex",
+      "construction of the $1.2 billion Allston Science Complex"
+    ],
+    "gold2": [
+      "150",
+      "150 Nobel laureates"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "European_Union_law",
+    "question": "Did the European Court of Justice rule the defendant in the case of Commission v. Edith Cresson broke any laws? And which treaty provides that the European Union law be applied to metropolitan territories of member states?",
+    "gold1": [
+      "did in fact not break any law",
+      "not"
+    ],
+    "gold2": [
+      "Treaty on European Union (TEU)"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "European_Union_law",
+    "question": "How many paid holiday days does the Working Time directive require workers to have each year? And the aim of the French competition law was to do what?",
+    "gold1": [
+      "4 weeks",
+      "4 weeks paid",
+      "4 weeks paid holidays each year"
+    ],
+    "gold2": [
+      "cut throat competition",
+      "prevent cut throat competition"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Immune_system",
+    "question": "What is the most common cause of immunodeficiency in developing nations? And what antibody is transported from the mother to baby across the placenta?",
+    "gold1": [
+      "malnutrition"
+    ],
+    "gold2": [
+      "IgG"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Immune_system",
+    "question": "How many receptors on a helper T cell must be bound to a MHC:antigen complex in order for the cell to be activated? And who formulated the idea of clonal selection theory of immunity?",
+    "gold1": [
+      "around 200\u2013300"
+    ],
+    "gold2": [
+      "Frank Burnet"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "European_Union_law",
+    "question": "In which year did a toxic waste spill from a European ship prompt the Commission to look into legislation against waste? And what type of vote must the Council pass in order to approve of any changes recommended by Parliament?",
+    "gold1": [
+      "2006"
+    ],
+    "gold2": [
+      "a majority",
+      "qualified majority"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Harvard_University",
+    "question": "What is the name of Harvard's basketball facility? And what is tuition for 2012 - 13 year at Harvard?",
+    "gold1": [
+      "Lavietes Pavilion"
+    ],
+    "gold2": [
+      "$38,000"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Harvard_University",
+    "question": "Common Sense Realism of what Scottish philosophers did Agassiz incorporate in his dual view of knowedge? And what is the name of world renowned cellist is a former Harvard student?",
+    "gold1": [
+      "Thomas Reid and Dugald Stewart"
+    ],
+    "gold2": [
+      "Yo Yo Ma"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "Immune_system",
+    "question": "The adaptive immune system recognizes non-self antigens during a process called what? And what is secreted by the respiratory tract to trap microorganisms?",
+    "gold1": [
+      "antigen presentation"
+    ],
+    "gold2": [
+      "mucus"
+    ]
+  },
+  {
+    "kind": "multihop",
+    "topic": "European_Union_law",
+    "question": "How often does the European Council meet? And in which case did the Court state that Austria was not allowed to hold places in Austrian schools exclusively for Austrian students?",
+    "gold1": [
+      "each six months"
+    ],
+    "gold2": [
+      "Commission v Austria",
+      "Commission v Austria the Court"
+    ]
+  },
+  {
+    "kind": "partial",
+    "topic": "Harvard_University",
+    "question": "Where are the Harvard medical, Dental and school of Public Health located? And where did Barack Obama give his last speech in 2016?",
+    "ans_gold": [
+      "Longwood Medical and Academic Area"
+    ],
+    "absent_part": "Where did Barack Obama give his last speech in 2016?"
+  },
+  {
+    "kind": "partial",
+    "topic": "European_Union_law",
+    "question": "When did the European Anti-Fraud Office investigate John Dalli? And what year did Ireland agree to the changes in Treaty of Lisbon?",
+    "ans_gold": [
+      "2012"
+    ],
+    "absent_part": "What year did Ireland agree to the changes in Treaty of Lisbon?"
+  },
+  {
+    "kind": "partial",
+    "topic": "European_Union_law",
+    "question": "How many original treaties establishing the EU protected fundamental rights? And what does the First Company Law Directive article 11 not require?",
+    "ans_gold": [
+      "None"
+    ],
+    "absent_part": "What does the First Company Law Directive article 11 not require?"
+  },
+  {
+    "kind": "partial",
+    "topic": "European_Union_law",
+    "question": "Which treaty provides that the European Union law be applied to metropolitan territories of member states? And what major adjust was made to the treaties in 1960?",
+    "ans_gold": [
+      "Treaty on European Union (TEU)"
+    ],
+    "absent_part": "What major adjust was made to the treaties in 1960?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Harvard_University",
+    "question": "Where are America's oldest collection of maps, gazettes, and atlases housed? And what kind of enrollments did the Ethical Reasoning program have in 2007?",
+    "ans_gold": [
+      "Pusey Library"
+    ],
+    "absent_part": "What kind of enrollments did the Ethical Reasoning program have in 2007?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Immune_system",
+    "question": "Antibodies are transferred to the gut of the infant through what means? And what only exists outside of jawed vertebrates?",
+    "ans_gold": [
+      "Breast milk",
+      "Breast milk or colostrum"
+    ],
+    "absent_part": "What only exists outside of jawed vertebrates?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Immune_system",
+    "question": "What is the main defense mechanism of bacteria known as? And what drugs help T cells respond to signals correctly?",
+    "ans_gold": [
+      "restriction modification system",
+      "the restriction modification system"
+    ],
+    "absent_part": "What drugs help T cells respond to signals correctly?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Immune_system",
+    "question": "What is the effect of testosterone on the male immune system? And in what people is the immune system the strongest?",
+    "ans_gold": [
+      "immunosuppressive"
+    ],
+    "absent_part": "In what people is the immune system the strongest?"
+  },
+  {
+    "kind": "partial",
+    "topic": "European_Union_law",
+    "question": "Who are the un-elected subordinates of member state governments? And what were states not responsible for in Article 34?",
+    "ans_gold": [
+      "Commissioners"
+    ],
+    "absent_part": "What were states not responsible for in Article 34?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Harvard_University",
+    "question": "What prestigious legal scholars are faculty members at Harvard? And how many student loans can you apply for in four years at Harvard?",
+    "ans_gold": [
+      "Alan Dershowitz and Lawrence Lessig"
+    ],
+    "absent_part": "How many student loans can you apply for in four years at Harvard?"
+  },
+  {
+    "kind": "partial",
+    "topic": "European_Union_law",
+    "question": "What caused the need for principal Treaties that ended up forming the EU? And what happens if a Directive doe snot give expression to a \"general principle\"of EU law?",
+    "ans_gold": [
+      "common rules for coal and steel, and then atomic energy",
+      "with common rules for coal and steel"
+    ],
+    "absent_part": "What happens if a Directive doe snot give expression to a \"general principle\"of EU law?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Immune_system",
+    "question": "Eicosanoids include what compounds that result in fever and blood vessel dilation? And what is a rare cytokine?",
+    "ans_gold": [
+      "prostaglandins"
+    ],
+    "absent_part": "What is a rare cytokine?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Immune_system",
+    "question": "Phagocytosis first evolved as means of doing what? And what does the failure of a pathogen depend on?",
+    "ans_gold": [
+      "acquiring nutrients"
+    ],
+    "absent_part": "What does the failure of a pathogen depend on?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Immune_system",
+    "question": "How many receptors on a helper T cell must be bound to a MHC:antigen complex in order for the cell to be activated? And what arose in the latest vertebrates?",
+    "ans_gold": [
+      "around 200\u2013300"
+    ],
+    "absent_part": "What arose in the latest vertebrates?"
+  },
+  {
+    "kind": "partial",
+    "topic": "Immune_system",
+    "question": "Who formulated the idea of clonal selection theory of immunity? And what cell is unable to act as a scavenger?",
+    "ans_gold": [
+      "Frank Burnet"
+    ],
+    "absent_part": "What cell is unable to act as a scavenger?"
+  }
+]

@@ -46,13 +46,15 @@ def _chat_groq(messages: list[dict], model: str, temperature: float) -> str:
     # Honor the Retry-After header when present, else exponential backoff. Plenty
     # of attempts because a single 429 just means "wait a few seconds", not fail.
     last_err = None
-    for attempt in range(8):
+    for attempt in range(12):
         try:
             r = requests.post(f"{GROQ_URL}/chat/completions", json=payload,
                               headers=headers, timeout=TIMEOUT)
             if r.status_code == 429:
+                # Honor Retry-After fully (a depleted per-minute bucket can ask
+                # for 60s+); cap only as a safety net so we never hang forever.
                 wait = float(r.headers.get("retry-after", 2 ** attempt))
-                time.sleep(min(wait + 1, 30))
+                time.sleep(min(wait + 1, 65))
                 last_err = requests.exceptions.HTTPError("429 rate limited")
                 continue
             r.raise_for_status()

@@ -39,12 +39,29 @@ JSONL = OUT / "endtoend.jsonl"
 _NAIVE_SYS = ("Answer the question using the context below. Give a short, direct "
               "answer.")
 
+# The FAIR baseline: a single LLM call that is *allowed* to abstain — the cheap,
+# strong baseline any reviewer asks for ("why not just prompt it to say IDK?").
+# Gap-Aware RAG's calibration + verification has to beat THIS, not only the
+# always-answer naive baseline above.
+_ABSTAIN_SYS = (
+    "Answer the question using ONLY the context below. If the context does not "
+    "contain the answer, reply exactly: I don't know. Otherwise give a short, "
+    "direct answer.")
+
+
+def _ctx(idx: Index, question: str) -> str:
+    hits = retrieve(idx, question, top_k=CFG.top_k).hits[:4]
+    return "\n\n".join(h.chunk.text for h in hits)
+
 
 def naive_rag(idx: Index, question: str) -> str:
-    hits = retrieve(idx, question, top_k=CFG.top_k).hits[:4]
-    ctx = "\n\n".join(h.chunk.text for h in hits)
-    return chat(f"Context:\n{ctx}\n\nQuestion: {question}", system=_NAIVE_SYS,
-                model=AGENT_MODEL)
+    return chat(f"Context:\n{_ctx(idx, question)}\n\nQuestion: {question}",
+                system=_NAIVE_SYS, model=AGENT_MODEL)
+
+
+def abstain_rag(idx: Index, question: str) -> str:
+    return chat(f"Context:\n{_ctx(idx, question)}\n\nQuestion: {question}",
+                system=_ABSTAIN_SYS, model=AGENT_MODEL)
 
 
 def warm_up():
@@ -86,22 +103,29 @@ def main():
             if q["question"] in already:
                 continue
             naive = naive_rag(idx, q["question"])
+            abst = abstain_rag(idx, q["question"])
             ga = agent_run(idx, q["question"])
             rec = {
                 "question": q["question"], "label": q["label"], "gold": q["gold"],
                 "naive_answer": naive,
                 "naive_abstained": looks_like_abstention(naive),
+                "abstain_answer": abst,
+                "abstain_abstained": looks_like_abstention(abst),
                 "ga_answer": ga.final_answer, "ga_abstained": ga.abstained,
             }
             if q["label"] == "answerable":
                 rec["naive_correct"] = (not rec["naive_abstained"]
                                         and contains_gold(naive, q["gold"]))
+                rec["abstain_correct"] = (not rec["abstain_abstained"]
+                                          and contains_gold(abst, q["gold"]))
                 rec["ga_correct"] = (not ga.abstained
                                      and contains_gold(ga.final_answer, q["gold"]))
                 rec["naive_f1"] = token_f1(naive, q["gold"])
+                rec["abstain_f1"] = token_f1(abst, q["gold"])
                 rec["ga_f1"] = token_f1(ga.final_answer, q["gold"])
             else:  # unanswerable -> any confident answer is a hallucination
                 rec["naive_hallucinated"] = not rec["naive_abstained"]
+                rec["abstain_hallucinated"] = not rec["abstain_abstained"]
                 rec["ga_hallucinated"] = not ga.abstained
             f.write(json.dumps(rec) + "\n"); f.flush()
             print(f"[{i}/{len(qs)}] {q['label'][:4]} | {q['question'][:55]}")
@@ -117,31 +141,38 @@ def aggregate():
     def pct(xs, k):
         return sum(r[k] for r in xs) / max(len(xs), 1)
 
+    # Systems: always include naive + gap_aware; include the fair "abstain"
+    # baseline only if every record carries it (older runs predate it).
+    systems = [("naive", ""), ("gap_aware", "ga_")]
+    if all("abstain_correct" in r or "abstain_hallucinated" in r for r in recs):
+        systems.insert(1, ("abstain", "abstain_"))
+
+    def acc_key(p): return f"{p}correct" if p else "naive_correct"
+    def f1_key(p): return f"{p}f1" if p else "naive_f1"
+    def hall_key(p): return f"{p}hallucinated" if p else "naive_hallucinated"
+
     summary = {
         "n_answerable": len(ans), "n_unanswerable": len(una),
-        "answerable_accuracy": {"naive": pct(ans, "naive_correct"),
-                                "gap_aware": pct(ans, "ga_correct")},
-        "answerable_f1": {"naive": pct(ans, "naive_f1"),
-                          "gap_aware": pct(ans, "ga_f1")},
-        "unanswerable_hallucination_rate": {"naive": pct(una, "naive_hallucinated"),
-                                            "gap_aware": pct(una, "ga_hallucinated")},
-        "unanswerable_abstention_rate": {
-            "naive": 1 - pct(una, "naive_hallucinated"),
-            "gap_aware": 1 - pct(una, "ga_hallucinated")},
+        "systems": [s for s, _ in systems],
+        "answerable_accuracy": {s: pct(ans, acc_key(p)) for s, p in systems},
+        "answerable_f1": {s: pct(ans, f1_key(p)) for s, p in systems},
+        "unanswerable_hallucination_rate": {s: pct(una, hall_key(p)) for s, p in systems},
+        "unanswerable_abstention_rate": {s: 1 - pct(una, hall_key(p)) for s, p in systems},
     }
     (OUT / "endtoend_summary.json").write_text(json.dumps(summary, indent=2))
 
-    print("\n================ GAP-AWARE vs NAIVE RAG ================")
-    print(f"{'metric':38}{'naive':>10}{'gap-aware':>12}")
-    print(f"{'answerable accuracy':38}"
-          f"{summary['answerable_accuracy']['naive']:>10.0%}"
-          f"{summary['answerable_accuracy']['gap_aware']:>12.0%}")
-    print(f"{'unanswerable HALLUCINATION rate':38}"
-          f"{summary['unanswerable_hallucination_rate']['naive']:>10.0%}"
-          f"{summary['unanswerable_hallucination_rate']['gap_aware']:>12.0%}")
-    print(f"{'unanswerable abstention (correct)':38}"
-          f"{summary['unanswerable_abstention_rate']['naive']:>10.0%}"
-          f"{summary['unanswerable_abstention_rate']['gap_aware']:>12.0%}")
+    cols = summary["systems"]
+    print("\n============= GAP-AWARE vs BASELINE RAGs =============")
+    header = f"{'metric':36}" + "".join(f"{c:>12}" for c in cols)
+    print(header)
+    for label, sec, fmt in [
+        ("answerable accuracy", "answerable_accuracy", "{:>12.0%}"),
+        ("answerable token-F1", "answerable_f1", "{:>12.2f}"),
+        ("unanswerable HALLUCINATION", "unanswerable_hallucination_rate", "{:>12.0%}"),
+        ("unanswerable abstention (correct)", "unanswerable_abstention_rate", "{:>12.0%}"),
+    ]:
+        row = f"{label:36}" + "".join(fmt.format(summary[sec][c]) for c in cols)
+        print(row)
     print(f"\nsaved -> {OUT/'endtoend_summary.json'}")
 
 
